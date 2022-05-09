@@ -1,0 +1,36 @@
+Each Soldier frame is 124x40 pixels.
+
+Each Gun frame is 92x18 pixels.
+
+The animations on the sprite sheet are laid out as follows from top to bottom: shooting, idle, running, hit, death, and jump.
+
+The shooting animation is 7 frames long.
+
+The idle animation is 4 frames long.
+
+The running animation is 6 frames long.
+
+The hit animation is 7 frames long.
+
+The death animation is 13 frames long.
+
+The jump animation is 6 frames long.
+
+
+Each animation is split into 3 layers.
+
+The Body layer is the first one, which is the furthest layer.
+
+The Gun layer is the second one, which is the middle layer (this layer may be altered to use guns from the 101 Pixel Art Guns Asset pack) NOTE: if you use a a differnt gun, the bullet flash will need to be lengthed if you wish for it to reach the edge of the frame.
+
+The Details layer is the third one, which is the closest layer.
+
+
+Included in each palette file is an example .png that shows all three layers combined.
+
+In order to achieve the hit animation, just use the same gun animation as the shooting animtion.
+
+
+SPECIAL NOTE: while this character is made to be compatible with the 101 Pixel Art Guns asset pack, not ALL guns will be compatible with the Space Soldier animations. That being said, feel free to alter any of the animations to make them compatible with any gun.
+
+
