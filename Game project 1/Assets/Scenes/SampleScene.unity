@@ -6003,6 +6003,10 @@ PrefabInstance:
       value: EventSystem
       objectReference: {fileID: 0}
     - target: {fileID: 7808945218044490050, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808945218044490050, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
