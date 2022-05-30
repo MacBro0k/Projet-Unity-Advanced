@@ -13,17 +13,7 @@ public class GameManager : Singleton<GameManager>
 
     private string _currentLevelName = string.Empty;
     List<AsyncOperation> _loadOperations;
-    private static GameManager instance;
-
-    private void Awake() {
-        if(instance == null) {
-            instance = this;
-        } 
-        else {
-            Destroy(gameObject);
-            Debug.LogError("Yo don't do this bruh");
- }
-    }
+    
     private void Start() {
         LoadLevel("SampleScene");
         _loadOperations = new List<AsyncOperation>();

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Singleton<T> : MonoBehaviour where T : Singleton<T>
 {
-    private static GameManager instance;
+    private static T instance;
     private static bool isInitialized;
 
     public static T Instance {
@@ -25,6 +25,9 @@ public class Singleton<T> : MonoBehaviour where T : Singleton<T>
     }
 
     public static bool IsInitialized {
-        get { return instance; }
+        get { if (instance != null)
+            return true; 
+            else
+            return false;}
     }
 }
