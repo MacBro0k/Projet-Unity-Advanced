@@ -27,6 +27,20 @@ public class PrototypeHeroControler : MonoBehaviour {
         Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
+    public void Flip(){
+        if (m_facingDirection == -1)
+        {
+            transform.rotation = Quaternion.Euler(0,0,0);
+            m_facingDirection = 1;
+        }
+            
+        else if (m_facingDirection == 1)
+        {
+            transform.rotation = Quaternion.Euler(0,180,0);
+            m_facingDirection = -1;
+        }
+    }
+
     // Update is called once per frame
     void Update ()
     {
@@ -63,17 +77,6 @@ public class PrototypeHeroControler : MonoBehaviour {
             m_moving = false;
 
         // Swap direction of sprite depending on move direction
-        if (inputRaw > 0 && m_facingDirection == -1)
-        {
-            transform.Rotate(0f,180f,0f);
-            m_facingDirection = 1;
-        }
-            
-        else if (inputRaw < 0 && m_facingDirection == 1)
-        {
-            transform.Rotate(0f,180f,0f);
-            m_facingDirection = -1;
-        }
      
         // SlowDownSpeed helps decelerate the characters when stopping
         float SlowDownSpeed = m_moving ? 1.0f : 0.5f;
