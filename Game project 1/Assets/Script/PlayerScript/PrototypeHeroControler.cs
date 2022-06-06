@@ -8,6 +8,8 @@ public class PrototypeHeroControler : MonoBehaviour {
     [SerializeField] float      m_jumpForce = 7.5f;
     [Header("Effects")]
 
+    public Texture2D defaultCursor;
+
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
     private Sensor_Prototype    m_groundSensor;
@@ -22,6 +24,7 @@ public class PrototypeHeroControler : MonoBehaviour {
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_Prototype>();
+        Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
     // Update is called once per frame

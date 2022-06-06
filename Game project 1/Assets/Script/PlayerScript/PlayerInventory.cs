@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerInventory : MonoBehaviour
 {
+
     public int Life {  get; private set; }
     public int Armor {  get; private set; }
 

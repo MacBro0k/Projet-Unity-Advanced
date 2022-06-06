@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
     public void RestartGame(string SceneName){
         Debug.Log("restart");
         SceneManager.LoadScene(SceneName);
@@ -13,4 +14,6 @@ public class GameManager : MonoBehaviour
     public void Quitgame(){
         Application.Quit();
     }
+
+
 }
