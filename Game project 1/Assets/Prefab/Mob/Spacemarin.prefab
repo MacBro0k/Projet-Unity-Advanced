@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 943487100179984018}
   - component: {fileID: 943487100179984019}
   - component: {fileID: 1140475834}
-  - component: {fileID: 1140475830}
   - component: {fileID: 1140475835}
   - component: {fileID: 1140475836}
   - component: {fileID: 1140475837}
   - component: {fileID: 8632061669327895637}
   - component: {fileID: 327949736}
+  - component: {fileID: 356138549}
   m_Layer: 3
   m_Name: Spacemarin
   m_TagString: Player
@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 943487100179984016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.5, y: -1.35, z: 0}
-  m_LocalScale: {x: 0.64176524, y: 0.64176524, z: 0.64176524}
+  m_LocalScale: {x: 0.5445378, y: 0.5445378, z: 0.5445378}
   m_Children:
   - {fileID: 7408600184160695126}
   - {fileID: 1379999829857118219}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8196121713257968172, guid: 0506b240d62bf4b4694cfe63a9f4a464, type: 3}
+  m_Sprite: {fileID: 5758462221868230158, guid: 8f35a709452f3ee4e9aa2367302d35cf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,25 +112,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!95 &1140475830
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943487100179984016}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1c47b38785dea224c88d909d83ab2863, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1140475835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c650705807f0fa4eb1715aa6b2e5e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endCG: {fileID: 0}
+  endGameUIText: {fileID: 0}
+  endText: You win!
+  endTextLoose: You died!
 --- !u!114 &1140475836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +155,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxLife: 50
+  MaxArmor: 0
+  MaxRocket: 0
+  MaxGrenade: 0
   lifebar: {fileID: 0}
+  laserbar: {fileID: 0}
 --- !u!114 &8632061669327895637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,9 +187,28 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21842036, y: -0.037291326}
-  m_Size: {x: 0.6455392, y: 1.1754173}
+  m_Offset: {x: 0.016740026, y: 0.056772523}
+  m_Size: {x: 0.65897673, y: 1.6054233}
   m_Direction: 0
+--- !u!95 &356138549
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943487100179984016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9efb0463fb55d8a4ab99823fb67ed09b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1576068288898737157
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +254,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.084346205, y: -0.043705434}
+  m_Offset: {x: 0.082772315, y: -0.107641906}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -257,7 +265,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8266124, y: 0.18741089}
+  m_Size: {x: 0.70737803, y: 0.1748693}
   m_EdgeRadius: 0
 --- !u!114 &6038918019528839901
 MonoBehaviour:

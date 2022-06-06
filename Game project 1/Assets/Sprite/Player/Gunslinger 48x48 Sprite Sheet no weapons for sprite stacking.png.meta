@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: 8f35a709452f3ee4e9aa2367302d35cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5758462221868230158
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_0
+  - first:
+      213: 7931309798080686695
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_1
+  - first:
+      213: -6887925433013364103
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_2
+  - first:
+      213: -8674682484749638324
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_3
+  - first:
+      213: 4298766964612019364
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_4
+  - first:
+      213: -3393512885857439342
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_5
+  - first:
+      213: 7155795779047437988
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_6
+  - first:
+      213: 270903986967864237
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_7
+  - first:
+      213: 2707952244006996657
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_8
+  - first:
+      213: 3095372536570255431
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_9
+  - first:
+      213: -7368553211790427627
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_10
+  - first:
+      213: -5470976956433503333
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_11
+  - first:
+      213: -7026561192555630255
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_12
+  - first:
+      213: 7233619753910658975
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_13
+  - first:
+      213: -663023496394968859
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_14
+  - first:
+      213: 3593190634190619769
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_15
+  - first:
+      213: 1434794933651954840
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_16
+  - first:
+      213: 305205727106290644
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_17
+  - first:
+      213: -1871898342995621772
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_18
+  - first:
+      213: -4866943367385213175
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_19
+  - first:
+      213: -2715711585895391277
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_20
+  - first:
+      213: -6320967274191061594
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_21
+  - first:
+      213: -7145209720221377797
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_22
+  - first:
+      213: -4767193544878426259
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_23
+  - first:
+      213: 5172423359256305087
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_24
+  - first:
+      213: 6788505691683599466
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_25
+  - first:
+      213: 6619353249291067265
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_26
+  - first:
+      213: 6549787439804165106
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_27
+  - first:
+      213: -4998356540114476572
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_28
+  - first:
+      213: -3961283222848676513
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_29
+  - first:
+      213: 67118828546260245
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_30
+  - first:
+      213: -7925411193821035609
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_31
+  - first:
+      213: 135112195860479193
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_32
+  - first:
+      213: 1541941507634312002
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_33
+  - first:
+      213: 3064881594206969461
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_34
+  - first:
+      213: -641179336035027761
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_35
+  - first:
+      213: 467084461969460187
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_36
+  - first:
+      213: 1217788969285640806
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_37
+  - first:
+      213: -7170633771736621169
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_38
+  - first:
+      213: -4879575855082965566
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_39
+  - first:
+      213: -1991207492622283441
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_40
+  - first:
+      213: -4197070109756979267
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_41
+  - first:
+      213: -4481493749302798300
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_42
+  - first:
+      213: 8810251887356126183
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_43
+  - first:
+      213: 3588271826713058512
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_44
+  - first:
+      213: -4124822342512597879
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_45
+  - first:
+      213: 942638770494934345
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_46
+  - first:
+      213: -1681927324267315515
+    second: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 576
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0666f291ea2aef40800000000000000
+      internalID: 5758462221868230158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 529
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aac2e4d3ca11e60800000000000000
+      internalID: 7931309798080686695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 528
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a1cddff4c2960a0800000000000000
+      internalID: -6887925433013364103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 528
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45e1359d365d9780800000000000000
+      internalID: -8674682484749638324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 528
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a432e947c948ab30800000000000000
+      internalID: 4298766964612019364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 530
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291b1c98202d7e0d0800000000000000
+      internalID: -3393512885857439342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 528
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6bc57195e7e4360800000000000000
+      internalID: 7155795779047437988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 528
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e477adb172c300800000000000000
+      internalID: 270903986967864237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 528
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba42c4f734949520800000000000000
+      internalID: 2707952244006996657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 480
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74815c90ce8f4fa20800000000000000
+      internalID: 3095372536570255431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 480
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51afaa6e4e3adb990800000000000000
+      internalID: -7368553211790427627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 480
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bee61d17f2314b0800000000000000
+      internalID: -5470976956433503333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 480
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1513d2dd2d3ac7e90800000000000000
+      internalID: -7026561192555630255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 480
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97e71047daf26460800000000000000
+      internalID: 7233619753910658975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 432
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0f3a394a77cc6f0800000000000000
+      internalID: -663023496394968859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 432
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974413128d39dd130800000000000000
+      internalID: 3593190634190619769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 432
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cdad9e36a69e310800000000000000
+      internalID: 1434794933651954840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 384
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3d593edfe4c3400800000000000000
+      internalID: 305205727106290644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 384
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788a12ff5ea506e0800000000000000
+      internalID: -1871898342995621772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 384
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9079f052bc4257cb0800000000000000
+      internalID: -4866943367385213175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 384
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfda4a73badf4ad0800000000000000
+      internalID: -2715711585895391277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 345
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adf8f801c96748a0800000000000000
+      internalID: -6320967274191061594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 345
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa598ccd9d17dc90800000000000000
+      internalID: -7145209720221377797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 345
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d677cf58ab687ddb0800000000000000
+      internalID: -4767193544878426259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_24
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 345
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd976cf3a328c740800000000000000
+      internalID: 5172423359256305087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 345
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64b484a5fd953e50800000000000000
+      internalID: 6788505691683599466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 345
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f52da95baacdb50800000000000000
+      internalID: 6619353249291067265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 291
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fba7d769f485ea50800000000000000
+      internalID: 6549787439804165106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e9bd853542aab0800000000000000
+      internalID: -4998356540114476572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 194
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dd36785e1b609c0800000000000000
+      internalID: -3961283222848676513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d7d3d08347ee000800000000000000
+      internalID: 67118828546260245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a384658288430290800000000000000
+      internalID: -7925411193821035609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc361783d300e100800000000000000
+      internalID: 135112195860479193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24339f2b1a3166510800000000000000
+      internalID: 1541941507634312002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ed65d4295a88a20800000000000000
+      internalID: 3064881594206969461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 96
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bf4e7ac21a17f0800000000000000
+      internalID: -641179336035027761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_36
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb4bcbe7da6b7600800000000000000
+      internalID: 467084461969460187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_37
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 96
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e8ad8d9476e010800000000000000
+      internalID: 1217788969285640806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_38
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 96
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f1835839acc7c90800000000000000
+      internalID: -7170633771736621169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 96
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5f437ec93484cb0800000000000000
+      internalID: -4879575855082965566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_40
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 96
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d0728d55fcd54e0800000000000000
+      internalID: -1991207492622283441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_41
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 96
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db78682e8f201c5c0800000000000000
+      internalID: -4197070109756979267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 48
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4285ca1dd298ec1c0800000000000000
+      internalID: -4481493749302798300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 48
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a39fa96d444a70800000000000000
+      internalID: 8810251887356126183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc16c4073a1cc130800000000000000
+      internalID: 3588271826713058512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_45
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98421f80fefa1c6c0800000000000000
+      internalID: -4124822342512597879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8cdaa7fce41d00800000000000000
+      internalID: 942638770494934345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunslinger 48x48 Sprite Sheet no weapons for sprite stacking_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef503820898a8e0800000000000000
+      internalID: -1681927324267315515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

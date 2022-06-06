@@ -1,0 +1,2748 @@
+fileFormatVersion: 2
+guid: 79bc64ba908274b41a02029da21380aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5139094306542952217
+    second: UI - Borders and HP Bars_0
+  - first:
+      213: -899529136151022314
+    second: UI - Borders and HP Bars_1
+  - first:
+      213: -5330647158087701421
+    second: UI - Borders and HP Bars_2
+  - first:
+      213: 1329635518722923585
+    second: UI - Borders and HP Bars_3
+  - first:
+      213: 432745469798070443
+    second: UI - Borders and HP Bars_4
+  - first:
+      213: -8181501557164155471
+    second: UI - Borders and HP Bars_5
+  - first:
+      213: -2032690592757502065
+    second: UI - Borders and HP Bars_6
+  - first:
+      213: 4097510046056211284
+    second: UI - Borders and HP Bars_7
+  - first:
+      213: 100836694050927154
+    second: UI - Borders and HP Bars_8
+  - first:
+      213: -7140373311386086455
+    second: UI - Borders and HP Bars_9
+  - first:
+      213: 2712124439358674343
+    second: UI - Borders and HP Bars_10
+  - first:
+      213: -1490842346427887342
+    second: UI - Borders and HP Bars_11
+  - first:
+      213: -1428854016585110131
+    second: UI - Borders and HP Bars_12
+  - first:
+      213: 4748367842829923566
+    second: UI - Borders and HP Bars_13
+  - first:
+      213: 8323686555549132598
+    second: UI - Borders and HP Bars_14
+  - first:
+      213: 3747751578099656250
+    second: UI - Borders and HP Bars_15
+  - first:
+      213: -7659633722427287134
+    second: UI - Borders and HP Bars_16
+  - first:
+      213: -7549929253505560246
+    second: UI - Borders and HP Bars_17
+  - first:
+      213: -5768035856993164969
+    second: UI - Borders and HP Bars_18
+  - first:
+      213: -8780923727941700431
+    second: UI - Borders and HP Bars_19
+  - first:
+      213: 853724323559783637
+    second: UI - Borders and HP Bars_20
+  - first:
+      213: 3029112976350551816
+    second: UI - Borders and HP Bars_21
+  - first:
+      213: -7240451840018934634
+    second: UI - Borders and HP Bars_22
+  - first:
+      213: 5126301195217294020
+    second: UI - Borders and HP Bars_23
+  - first:
+      213: 3859882150201218965
+    second: UI - Borders and HP Bars_24
+  - first:
+      213: -1793310474242154150
+    second: UI - Borders and HP Bars_25
+  - first:
+      213: 5585411783898827254
+    second: UI - Borders and HP Bars_26
+  - first:
+      213: -587385004972545570
+    second: UI - Borders and HP Bars_27
+  - first:
+      213: 4780640702843935361
+    second: UI - Borders and HP Bars_28
+  - first:
+      213: -4708578042319293409
+    second: UI - Borders and HP Bars_29
+  - first:
+      213: -6204284443217921062
+    second: UI - Borders and HP Bars_30
+  - first:
+      213: -1209145537875043828
+    second: UI - Borders and HP Bars_31
+  - first:
+      213: 496273681374061929
+    second: UI - Borders and HP Bars_32
+  - first:
+      213: -995045986206056919
+    second: UI - Borders and HP Bars_33
+  - first:
+      213: -6501608508748430177
+    second: UI - Borders and HP Bars_34
+  - first:
+      213: 5151378067877394896
+    second: UI - Borders and HP Bars_35
+  - first:
+      213: 2085794153432673947
+    second: UI - Borders and HP Bars_36
+  - first:
+      213: -6112591167019596749
+    second: UI - Borders and HP Bars_37
+  - first:
+      213: 6205622310342820791
+    second: UI - Borders and HP Bars_38
+  - first:
+      213: 1209475280624326251
+    second: UI - Borders and HP Bars_39
+  - first:
+      213: 6037990351767598557
+    second: UI - Borders and HP Bars_40
+  - first:
+      213: 6234620966507479198
+    second: UI - Borders and HP Bars_41
+  - first:
+      213: -2925634884041716060
+    second: UI - Borders and HP Bars_42
+  - first:
+      213: -5319917291957310937
+    second: UI - Borders and HP Bars_43
+  - first:
+      213: -7744396820654048350
+    second: UI - Borders and HP Bars_44
+  - first:
+      213: -4513428933741713201
+    second: UI - Borders and HP Bars_45
+  - first:
+      213: -1977289603754014180
+    second: UI - Borders and HP Bars_46
+  - first:
+      213: -7854927520463291714
+    second: UI - Borders and HP Bars_47
+  - first:
+      213: 7709171253193762105
+    second: UI - Borders and HP Bars_48
+  - first:
+      213: -1916040471770436778
+    second: UI - Borders and HP Bars_49
+  - first:
+      213: 2438743112633312399
+    second: UI - Borders and HP Bars_50
+  - first:
+      213: -1285195690255192339
+    second: UI - Borders and HP Bars_51
+  - first:
+      213: 8655366523175561261
+    second: UI - Borders and HP Bars_52
+  - first:
+      213: -6320281264515035457
+    second: UI - Borders and HP Bars_53
+  - first:
+      213: -3054879129320869318
+    second: UI - Borders and HP Bars_54
+  - first:
+      213: -3485981030479966658
+    second: UI - Borders and HP Bars_55
+  - first:
+      213: 3004485987899556340
+    second: UI - Borders and HP Bars_56
+  - first:
+      213: 618673737618281082
+    second: UI - Borders and HP Bars_57
+  - first:
+      213: -9150957699874875117
+    second: UI - Borders and HP Bars_58
+  - first:
+      213: 4985333901095910039
+    second: UI - Borders and HP Bars_59
+  - first:
+      213: 6354838291279050284
+    second: UI - Borders and HP Bars_60
+  - first:
+      213: 6863812794165068029
+    second: UI - Borders and HP Bars_61
+  - first:
+      213: 7629557229738169773
+    second: UI - Borders and HP Bars_62
+  - first:
+      213: 1069044151694063747
+    second: UI - Borders and HP Bars_63
+  - first:
+      213: 4650307795011354531
+    second: UI - Borders and HP Bars_64
+  - first:
+      213: -6381112219861046741
+    second: UI - Borders and HP Bars_65
+  - first:
+      213: 5536026746392993702
+    second: UI - Borders and HP Bars_66
+  - first:
+      213: -841654807439232864
+    second: UI - Borders and HP Bars_67
+  - first:
+      213: 8527439721501925496
+    second: UI - Borders and HP Bars_68
+  - first:
+      213: -8143545499380524489
+    second: UI - Borders and HP Bars_69
+  - first:
+      213: 4298163224897781150
+    second: UI - Borders and HP Bars_70
+  - first:
+      213: -298868700740172558
+    second: UI - Borders and HP Bars_71
+  - first:
+      213: 3941711065943698196
+    second: UI - Borders and HP Bars_72
+  - first:
+      213: 168719223611277926
+    second: UI - Borders and HP Bars_73
+  - first:
+      213: -2474576063309876141
+    second: UI - Borders and HP Bars_74
+  - first:
+      213: 6993508054178945246
+    second: UI - Borders and HP Bars_75
+  - first:
+      213: -7983228602910149307
+    second: UI - Borders and HP Bars_76
+  - first:
+      213: -684464975388469940
+    second: UI - Borders and HP Bars_77
+  - first:
+      213: -6443069184273733825
+    second: UI - Borders and HP Bars_78
+  - first:
+      213: -4206386856538249159
+    second: UI - Borders and HP Bars_79
+  - first:
+      213: -7804504109891095324
+    second: UI - Borders and HP Bars_80
+  - first:
+      213: 2649599407154625948
+    second: UI - Borders and HP Bars_81
+  - first:
+      213: -2575036959228617785
+    second: UI - Borders and HP Bars_82
+  - first:
+      213: 6159270649435234332
+    second: UI - Borders and HP Bars_83
+  - first:
+      213: 5296223005497762719
+    second: UI - Borders and HP Bars_84
+  - first:
+      213: -44999551846715457
+    second: UI - Borders and HP Bars_85
+  - first:
+      213: -3067157598607046587
+    second: UI - Borders and HP Bars_86
+  - first:
+      213: 2846303093434441190
+    second: UI - Borders and HP Bars_87
+  - first:
+      213: 7762847714602620459
+    second: UI - Borders and HP Bars_88
+  - first:
+      213: -2439341032574703457
+    second: UI - Borders and HP Bars_89
+  - first:
+      213: -8406955950398503889
+    second: UI - Borders and HP Bars_90
+  - first:
+      213: 357622242472442166
+    second: UI - Borders and HP Bars_91
+  - first:
+      213: 6903517250370328933
+    second: UI - Borders and HP Bars_92
+  - first:
+      213: -2668835843460928898
+    second: UI - Borders and HP Bars_93
+  - first:
+      213: 7357014569416598870
+    second: UI - Borders and HP Bars_94
+  - first:
+      213: -8234359694375084348
+    second: UI - Borders and HP Bars_95
+  - first:
+      213: -6177237337470516381
+    second: UI - Borders and HP Bars_96
+  - first:
+      213: 6998940770654044648
+    second: UI - Borders and HP Bars_97
+  - first:
+      213: -3868182038832256913
+    second: UI - Borders and HP Bars_98
+  - first:
+      213: -4521041463391918478
+    second: UI - Borders and HP Bars_99
+  - first:
+      213: 2497694417046260583
+    second: UI - Borders and HP Bars_100
+  - first:
+      213: 2937880802042799647
+    second: UI - Borders and HP Bars_101
+  - first:
+      213: 829869095252193894
+    second: UI - Borders and HP Bars_102
+  - first:
+      213: -1371348692386338406
+    second: UI - Borders and HP Bars_103
+  - first:
+      213: -5131608380836583849
+    second: UI - Borders and HP Bars_104
+  - first:
+      213: 6135319593903658147
+    second: UI - Borders and HP Bars_105
+  - first:
+      213: 3289714876676140676
+    second: UI - Borders and HP Bars_106
+  - first:
+      213: -7940854933152614713
+    second: UI - Borders and HP Bars_107
+  - first:
+      213: 3191165429091939853
+    second: UI - Borders and HP Bars_108
+  - first:
+      213: -5205480079987961511
+    second: UI - Borders and HP Bars_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 248
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f99b03b0bb15740800000000000000
+      internalID: 5139094306542952217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 249
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615ba9e340b3483f0800000000000000
+      internalID: -899529136151022314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 248
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cac3717acb506b0800000000000000
+      internalID: -5330647158087701421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 247
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd836a570d37210800000000000000
+      internalID: 1329635518722923585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_4
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 248
+        width: 48
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8397546bb610600800000000000000
+      internalID: 432745469798070443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 247
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bddce36ea7757e80800000000000000
+      internalID: -8181501557164155471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 219
+        width: 68
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f2960fcae6ac3e0800000000000000
+      internalID: -2032690592757502065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 222
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45366c66da74dd830800000000000000
+      internalID: 4097510046056211284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 224
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232fa31607e366100800000000000000
+      internalID: 100836694050927154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 220
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3172bfd4c48ec90800000000000000
+      internalID: -7140373311386086455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 224
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a511a2eec663a520800000000000000
+      internalID: 2712124439358674343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 218
+        width: 70
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2115e05e8c67f4be0800000000000000
+      internalID: -1490842346427887342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_12
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 221
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ded81a7d0bb2ce0800000000000000
+      internalID: -1428854016585110131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 219
+        width: 68
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4f3c6256795e140800000000000000
+      internalID: 4748367842829923566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637633d42dca38370800000000000000
+      internalID: 8323686555549132598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a362a0f2430b20430800000000000000
+      internalID: 3747751578099656250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a95e1146b383b590800000000000000
+      internalID: -7659633722427287134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 161
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41987d5853493790800000000000000
+      internalID: -7549929253505560246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 163
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e43cc2f1d3ffa0800000000000000
+      internalID: -5768035856993164969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b47c3c8464e32680800000000000000
+      internalID: -8780923727941700431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc34e1cfb909db00800000000000000
+      internalID: 853724323559783637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f96ebf332990a20800000000000000
+      internalID: 3029112976350551816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_22
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 161
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694195eb96fb48b90800000000000000
+      internalID: -7240451840018934634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_23
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 160
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c25698d6c7442740800000000000000
+      internalID: 5126301195217294020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_24
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 162
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975d957d5e019530800000000000000
+      internalID: 3859882150201218965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_25
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a512fc200a1ec17e0800000000000000
+      internalID: -1793310474242154150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 115
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f90297bc6e538d40800000000000000
+      internalID: 5585411783898827254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_27
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 143
+        width: 40
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed96838337039d7f0800000000000000
+      internalID: -587385004972545570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_28
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 147
+        width: 40
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a59cbe36f385240800000000000000
+      internalID: 4780640702843935361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ba56b735c7aeb0800000000000000
+      internalID: -4708578042319293409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 88
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb738cab24f5e9a0800000000000000
+      internalID: -6204284443217921062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a95352a80483fe0800000000000000
+      internalID: -1209145537875043828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 134
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9652da9a84e13e600800000000000000
+      internalID: 496273681374061929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_33
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 133
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e720192f2e032f0800000000000000
+      internalID: -995045986206056919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_34
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94846f1285a5c5a0800000000000000
+      internalID: -6501608508748430177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_35
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9f19f3f0f5d7740800000000000000
+      internalID: 5151378067877394896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_36
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 88
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee0f54bba32fc10800000000000000
+      internalID: 2085794153432673947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_37
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 132
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3344b9038b6bb2ba0800000000000000
+      internalID: -6112591167019596749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_38
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 134
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3093acc9cce1650800000000000000
+      internalID: 6205622310342820791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_39
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 133
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b669a321c5be8c010800000000000000
+      internalID: 1209475280624326251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_40
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f75afb304bc350800000000000000
+      internalID: 6037990351767598557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 91
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9081e19cb2d58650800000000000000
+      internalID: 6234620966507479198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 116
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aec33ad29e0667d0800000000000000
+      internalID: -2925634884041716060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 117
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a2d6ab86bdb26b0800000000000000
+      internalID: -5319917291957310937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_44
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 91
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab30498f10668490800000000000000
+      internalID: -7744396820654048350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_45
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 116
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8ea554c441d51c0800000000000000
+      internalID: -4513428933741713201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_46
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 117
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a4b2ed4914f84e0800000000000000
+      internalID: -1977289603754014180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba785e8901bdf290800000000000000
+      internalID: -7854927520463291714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935644be86a7cfa60800000000000000
+      internalID: 7709171253193762105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be9d0b75bd865e0800000000000000
+      internalID: -1916040471770436778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8460fe90f728d120800000000000000
+      internalID: 2438743112633312399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deee97734511a2ee0800000000000000
+      internalID: -1285195690255192339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28efa6aef90e1870800000000000000
+      internalID: 8655366523175561261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_53
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 100
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe460c1da9d948a0800000000000000
+      internalID: -6320281264515035457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_54
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 101
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3233190e93ea95d0800000000000000
+      internalID: -3054879129320869318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_55
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ecd78e8be4f9fc0800000000000000
+      internalID: -3485981030479966658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_56
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14469661412b920800000000000000
+      internalID: 3004485987899556340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d99a8c78f59800800000000000000
+      internalID: 618673737618281082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_58
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3191550b474410180800000000000000
+      internalID: -9150957699874875117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_59
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab88505c67f2540800000000000000
+      internalID: 4985333901095910039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_60
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26fcbca1cbe03850800000000000000
+      internalID: 6354838291279050284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 100
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08df8ce59214f50800000000000000
+      internalID: 6863812794165068029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_62
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 101
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da59e0890e1a1e960800000000000000
+      internalID: 7629557229738169773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 84
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388feeeedf106de00800000000000000
+      internalID: 1069044151694063747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 85
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb1e91d46398040800000000000000
+      internalID: 4650307795011354531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_65
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a274f9e3cb177a0800000000000000
+      internalID: -6381112219861046741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_66
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd0d5aefae3dc40800000000000000
+      internalID: 5536026746392993702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_67
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 84
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0b5137967d154f0800000000000000
+      internalID: -841654807439232864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_68
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 85
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870ada31f3d875670800000000000000
+      internalID: 8527439721501925496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_69
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5131c3805cfe80800000000000000
+      internalID: -8143545499380524489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_70
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dfdae2ea426ab30800000000000000
+      internalID: 4298163224897781150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 71
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f446e900843adbf0800000000000000
+      internalID: -298868700740172558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_72
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 24
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41becc49455c3b630800000000000000
+      internalID: 3941711065943698196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_73
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 66
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662412e6d39675200800000000000000
+      internalID: 168719223611277926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 67
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354fab86e2a88add0800000000000000
+      internalID: -2474576063309876141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_75
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 71
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85b27a58eed0160800000000000000
+      internalID: 6993508054178945246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_76
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 24
+        width: 12
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5457dc2f1efd53190800000000000000
+      internalID: -7983228602910149307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_77
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 50
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4516c83bba4086f0800000000000000
+      internalID: -684464975388469940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_78
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 66
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f372918b6be9596a0800000000000000
+      internalID: -6443069184273733825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_79
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 67
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9386a2cb079ef95c0800000000000000
+      internalID: -4206386856538249159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47dd1bcd4d0b390800000000000000
+      internalID: -7804504109891095324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 50
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d79846f9445c420800000000000000
+      internalID: 2649599407154625948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1da95781a34cd0800000000000000
+      internalID: -2575036959228617785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_83
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 27
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a31fb5002a7550800000000000000
+      internalID: 6159270649435234332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 50
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9322fd43c6ff7940800000000000000
+      internalID: 5296223005497762719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_85
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 51
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfef116521206ff0800000000000000
+      internalID: -44999551846715457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_86
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54803e02a644f65d0800000000000000
+      internalID: -3067157598607046587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_87
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed51474599108720800000000000000
+      internalID: 2846303093434441190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26975afddc2bbb60800000000000000
+      internalID: 7762847714602620459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_89
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98a95b4148b52ed0800000000000000
+      internalID: -2439341032574703457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_90
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f240426ea1e745b80800000000000000
+      internalID: -8406955950398503889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_91
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6393956e88786f400800000000000000
+      internalID: 357622242472442166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_92
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 34
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569da11ec583ecf50800000000000000
+      internalID: 6903517250370328933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 35
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a6ea2c0f366fad0800000000000000
+      internalID: -2668835843460928898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_94
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 38
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655237195cd591660800000000000000
+      internalID: 7357014569416598870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_95
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce9af74c7da9bd80800000000000000
+      internalID: -8234359694375084348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_96
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3634ac6be5b064aa0800000000000000
+      internalID: -6177237337470516381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_97
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e145d68c8b312160800000000000000
+      internalID: 6998940770654044648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_98
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f686bd02ee4715ac0800000000000000
+      internalID: -3868182038832256913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_99
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27666b71eb80241c0800000000000000
+      internalID: -4521041463391918478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_100
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bc485c6d799a220800000000000000
+      internalID: 2497694417046260583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 34
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16633e160375c820800000000000000
+      internalID: 2937880802042799647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_102
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 35
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662f4989b89448b00800000000000000
+      internalID: 829869095252193894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_103
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 38
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99ad1741adf7fce0800000000000000
+      internalID: -1371348692386338406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_104
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 18
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75661d5bd5dd8c8b0800000000000000
+      internalID: -5131608380836583849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 19
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a41f121aa8052550800000000000000
+      internalID: 6135319593903658147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_106
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e699c204a67ad20800000000000000
+      internalID: 3289714876676140676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 18
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b780c28a6cc190800000000000000
+      internalID: -7940854933152614713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_108
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 19
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06388cdc0c494c20800000000000000
+      internalID: 3191165429091939853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Borders and HP Bars_109
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 22
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95112f2727b62c7b0800000000000000
+      internalID: -5205480079987961511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
