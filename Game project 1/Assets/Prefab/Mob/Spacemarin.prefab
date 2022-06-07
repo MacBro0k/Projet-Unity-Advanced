@@ -156,8 +156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxLife: 50
   MaxArmor: 0
-  MaxRocket: 0
-  MaxGrenade: 0
+  MaxRocket: 5
+  MaxGrenade: 5
   lifebar: {fileID: 0}
   laserbar: {fileID: 0}
 --- !u!114 &8632061669327895637
@@ -324,6 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5b1a3b8a8f5b348bba5b4d0e8bdc8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 943487100179984016}
 --- !u!1 &3490137410063071573
 GameObject:
   m_ObjectHideFlags: 0
