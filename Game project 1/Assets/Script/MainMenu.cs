@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
 
     private GameObject OptionMenu;
     public void PlayGame() {
-        GameManager.LoadLevel("SampleScene");
+        //GameManager.LoadLevel("SampleScene");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
