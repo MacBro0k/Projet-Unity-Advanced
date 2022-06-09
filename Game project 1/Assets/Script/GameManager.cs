@@ -26,7 +26,7 @@ public class GameManager : Singleton<GameManager>
         InstantiateSystemPrefabs();
     }
     public void LoadLevel(string levelName) {
-        AsyncOperation ao = SceneManager.LoadSceneAsync(levelName);
+        AsyncOperation ao = SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
         ao.completed += OnLoadOperationComplete;
         _loadOperations.Add(ao);
 
