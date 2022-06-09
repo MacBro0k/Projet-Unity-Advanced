@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firepoint: {fileID: 998954615}
   Bullet: {fileID: 4289122152762678142, guid: b04643110bebafe4dad76a5943c00a38, type: 3}
-  BlastEffect: {fileID: 457086832116725224, guid: ac88866e871133041a7317e7a228a04e, type: 3}
+  BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
 --- !u!4 &565392463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1379999829857118219, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firepoint: {fileID: 565392463}
   Bullet: {fileID: 1425365237239811405, guid: db992e53882622c46a5ea7631c7f432a, type: 3}
-  BlastEffect: {fileID: 8387684989082723472, guid: 4274293f438aa0b49b34d3eac33df85b, type: 3}
+  BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
 --- !u!1001 &1837614631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -344,11 +344,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 943487100179984018, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.1596
+      value: -4.76
       objectReference: {fileID: 0}
     - target: {fileID: 943487100179984018, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5659
+      value: -3.42
       objectReference: {fileID: 0}
     - target: {fileID: 943487100179984018, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -380,6 +380,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 943487100179984018, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 943487100179984019, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7990050333404973963, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
