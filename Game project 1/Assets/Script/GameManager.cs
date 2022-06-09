@@ -18,14 +18,15 @@ public class GameManager : Singleton<GameManager>
 
     
     private void Start() {
-        LoadLevel("Lvl_1-2");
+        _currentLevelName = SceneManager.GetActiveScene().name;
+        Debug.Log(_currentLevelName);
         _loadOperations = new List<AsyncOperation>();
         DontDestroyOnLoad(this.gameObject);
         _instanciedSystemPrefabs = new List<GameObject>();
         InstantiateSystemPrefabs();
     }
     public void LoadLevel(string levelName) {
-        AsyncOperation ao = SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
+        AsyncOperation ao = SceneManager.LoadSceneAsync(levelName);
         ao.completed += OnLoadOperationComplete;
         _loadOperations.Add(ao);
 
@@ -47,7 +48,7 @@ public class GameManager : Singleton<GameManager>
         _currentLevelName = levelName;
     }
 
-    void OnLoadOperationComplete(AsyncOperation elem) {
+    private void OnLoadOperationComplete(AsyncOperation elem) {
         if (_loadOperations.Contains(elem)) {
             _loadOperations.Remove(elem);
         }
@@ -55,7 +56,7 @@ public class GameManager : Singleton<GameManager>
         Debug.Log("Load Complete");
     }
 
-    void OnUnloadOperationComplete(AsyncOperation elem) {
+    private void OnUnloadOperationComplete(AsyncOperation elem) {
         Debug.Log("Unload Complete");
     }
 
