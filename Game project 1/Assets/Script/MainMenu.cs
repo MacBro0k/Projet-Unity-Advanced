@@ -10,7 +10,8 @@ public class MainMenu : MonoBehaviour
 
     private GameObject OptionMenu;
     public void PlayGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameManager.LoadLevel("SampleScene");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame() {
