@@ -6,21 +6,23 @@ using UnityEngine.UI;
 public class PlayerInventory : MonoBehaviour
 {
 
-    public int Life {  get; private set; }
-    public int Armor {  get; private set; }
+    public int              Life {  get; private set; }
+    public int              Armor {  get; private set; }
 
     // Munition 
-    public float Laser {  get; private set; } // Charge max 100%
-    public int Rocket {  get; private set; }
-    public int Grenade {  get; private set; }
+    public float            Laser {  get; private set; } // Charge max 100%
+    public int              Rocket {  get; private set; }
+    public int              Grenade {  get; private set; }
 
-    public int MaxLife;
-    public int MaxArmor;
+    private bool            invincible = false;
 
-    public int MaxRocket;
-    public int MaxGrenade;
+    public int              MaxLife;
+    public int              MaxArmor;
 
-    private Animator m_animator;
+    public int              MaxRocket;
+    public int              MaxGrenade;
+
+    private Animator        m_animator;
 
     // Interface Image
     public Image lifebar;
@@ -38,21 +40,23 @@ public class PlayerInventory : MonoBehaviour
 
     // Enleve des PV et joue l'animation "hit" ou "Die"
     public void TakeDamage(int Damage){
-        if(Armor != 0){
-            if(Damage <= Armor){
-                Armor -= Damage;
-                return;
-            }else{
-                Damage = Damage - Armor;
-                Armor = 0; 
+        if(!invincible){
+            if(Armor != 0){
+                if(Damage <= Armor){
+                    Armor -= Damage;
+                    return;
+                }else{
+                    Damage = Damage - Armor;
+                    Armor = 0; 
+                }
             }
-        }
-        Life -= Damage;
-        lifebar.fillAmount = Mathf.Round((1/(float)MaxLife)*(float)Life*10000)/10000;
-        if(Life <= 0){
-            m_animator.SetTrigger("Death");
-        }else{
-            m_animator.SetTrigger("Hit");
+            Life -= Damage;
+            lifebar.fillAmount = Mathf.Round((1/(float)MaxLife)*(float)Life*10000)/10000;
+            if(Life <= 0){
+                m_animator.SetTrigger("Death");
+            }else{
+                m_animator.SetTrigger("Hit");
+            }
         }
     }
 
@@ -130,4 +134,9 @@ public class PlayerInventory : MonoBehaviour
             Grenade--;
         }
     }
+
+    public void Invincible(){
+        invincible = !invincible;
+    }
+
 }
