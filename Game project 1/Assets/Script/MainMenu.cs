@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Slider SliderUI;
-
     private GameObject OptionMenu;
+
     public void PlayGame() {
-        GameManager.LoadLevel("SampleScene");
+        GameManager.Instance.LoadLevel("TestZone");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -30,11 +30,5 @@ public class MainMenu : MonoBehaviour
         Screen.fullScreen = !Screen.fullScreen;
         Debug.Log("Toggled fullscreen");
     }
-
-    public void Zebi() {
-        Application.OpenURL("https://paypal.me/cestmoilebossjetedis?country.x=FR&locale.x=fr_FR");
-    }
-    
-
 
 }
