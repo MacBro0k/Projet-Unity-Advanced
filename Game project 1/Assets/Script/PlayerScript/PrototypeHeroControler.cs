@@ -28,8 +28,12 @@ public class PrototypeHeroControler : MonoBehaviour {
     }
 
     public void ForceForceward(float speed){
-        
+        m_body2d.velocity = transform.right * speed;
     }
+
+    /*public void StopForceForceward(){
+        m_body2d.velocity = 0;
+    }*/
 
     public void CantMove (){
         m_canMove = !m_canMove;
@@ -54,7 +58,7 @@ public class PrototypeHeroControler : MonoBehaviour {
     {
         // Decrease timer that disables input movement. Used when attacking
         m_disableMovementTimer -= Time.deltaTime;
-        if(!m_canMove){
+        if(m_canMove){
             //Check if character just landed on the ground
             if (!m_grounded && m_groundSensor.State())
             {
@@ -103,6 +107,10 @@ public class PrototypeHeroControler : MonoBehaviour {
                 m_animator.SetBool("Grounded", m_grounded);
                 m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
                 m_groundSensor.Disable(0.2f);
+            }
+
+            if (Input.GetButtonDown("Roll") && m_grounded){
+                m_animator.SetTrigger("Rolling");
             }
 
             m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));

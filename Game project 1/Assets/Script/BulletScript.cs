@@ -12,7 +12,7 @@ public class BulletScript : MonoBehaviour
     void Start()
     {
         rb.velocity = transform.right * speed;
-        Destroy(gameObject,8f);
+        Destroy(gameObject,5f);
     }
 
     void OnTriggerEnter2D(Collider2D hit)

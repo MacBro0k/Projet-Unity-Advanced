@@ -7,7 +7,8 @@ public class PlayerShooter : MonoBehaviour
 
     public Transform firepoint;
     public GameObject bullet;
-
+    
+    public bool canShoot = true;
     private Animator m_animator;
 
     void Start(){
@@ -17,13 +18,19 @@ public class PlayerShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")){
-            m_animator.SetTrigger("ShootingB");
-            Shoot();
+        if(canShoot){
+            if (Input.GetButtonDown("Fire1")){
+                m_animator.SetTrigger("ShootingB");
+                Shoot();
+            }
         }
     }
 
     void Shoot (){
         Instantiate(bullet, firepoint.position, firepoint.rotation);
+    }
+
+    void CantShoot(){
+        canShoot = !canShoot;
     }
 }
