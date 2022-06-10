@@ -14,8 +14,18 @@ public class GameManager : Singleton<GameManager>
     private string _currentLevelName = string.Empty;
     List<AsyncOperation> _loadOperations;
     public GameObject[] SystemPrefabs;
-    private List<GameObject> _instanciedSystemPrefabs;
+    List<GameObject> _instanciedSystemPrefabs;
+    GameState _currentGameState = GameState.PREGAME;
 
+    public enum GameState
+    {
+        PREGAME,
+        RUNNING,
+        PAUSED
+    }
+
+
+    // Loading Levels Methods
     
     private void Start() {
         _currentLevelName = SceneManager.GetActiveScene().name;
@@ -60,6 +70,9 @@ public class GameManager : Singleton<GameManager>
         Debug.Log("Unload Complete");
     }
 
+
+    // Singleton Methods
+
     void InstantiateSystemPrefabs() {
         GameObject prefabInstance;
         for (int i = 0; i < SystemPrefabs.Length; i++) {
@@ -79,4 +92,34 @@ public class GameManager : Singleton<GameManager>
 
         _instanciedSystemPrefabs.Clear();
     }
+
+
+    // GameState Methods
+
+    public GameState CurrentGameState
+    {
+        get { return _currentGameState; }
+        set { UpdateState(value); }
+    }
+
+    private void UpdateState(GameState state)
+    {
+        _currentGameState = state;
+
+        switch (_currentGameState)
+        {
+            case GameState.PREGAME:
+                break;
+
+            case GameState.RUNNING:
+                break;
+
+            case GameState.PAUSED:
+                break;
+
+            default:
+                break;
+        }
+    }
+
 }
