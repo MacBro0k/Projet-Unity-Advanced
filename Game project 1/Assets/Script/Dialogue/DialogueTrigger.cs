@@ -20,9 +20,12 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (playerinRange){
+        if(playerInRange)
+        {
             VisualInteract.SetActive(true);
-            //if (In)
+            if (Input.GetButtonDown("Interact")){
+                Debug.Log(inkJSON.text);
+            }
         }else{
             VisualInteract.SetActive(false);
         }
@@ -31,7 +34,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.tag == "player")
+        if(collider.tag == "Player")
         {
             playerInRange = true;
         }
@@ -39,7 +42,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-                if(collider.tag == "player")
+                if(collider.tag == "Player")
         {
             playerInRange = false;
         }
