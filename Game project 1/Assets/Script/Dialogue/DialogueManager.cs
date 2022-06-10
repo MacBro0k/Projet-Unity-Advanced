@@ -43,7 +43,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void EnterDialogueMode(TextAsset inkJSON){
+    public void EnterDialogueMode(TextAsset inkJSON){
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);

@@ -24,7 +24,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             VisualInteract.SetActive(true);
             if (Input.GetButtonDown("Interact")){
-                Debug.Log(inkJSON.text);
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
         }else{
             VisualInteract.SetActive(false);
