@@ -25,6 +25,15 @@ public class PlayerShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Disable Shoot if Character Speaking
+        if(DialogueManager.GetInstance().dialogueIsPlaying){
+            m_canShoot = false;
+        }
+        else if (!m_canShoot)
+        {
+            m_canShoot = true;
+        }
+
         if(m_canShoot){
             if (Input.GetButtonDown("Fire1")){
                 if(m_animator)
