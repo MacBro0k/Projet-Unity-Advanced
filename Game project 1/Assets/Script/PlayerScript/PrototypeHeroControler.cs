@@ -35,10 +35,14 @@ public class PrototypeHeroControler : MonoBehaviour {
         m_body2d.velocity = 0;
     }*/
 
+
+    // Function to avoid character movement
     public void CantMove (){
         m_canMove = !m_canMove;
     }
 
+
+    // Function to flip character 
     public void Flip(){
         if (m_facingDirection == -1)
         {
@@ -56,9 +60,18 @@ public class PrototypeHeroControler : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+        //Disable mouvement if Character Speaking
+        if(DialogueManager.GetInstance().dialogueIsPlaying){
+            m_canMove = false;
+        }
+        else if (!m_canMove)
+        {
+            m_canMove = true;
+        }
+
         // Decrease timer that disables input movement. Used when attacking
         m_disableMovementTimer -= Time.deltaTime;
-        if(m_canMove){
+
             //Check if character just landed on the ground
             if (!m_grounded && m_groundSensor.State())
             {
@@ -76,19 +89,19 @@ public class PrototypeHeroControler : MonoBehaviour {
             // -- Handle input and movement --
             float inputX = 0.0f;
 
+        if(m_canMove){
             if (m_disableMovementTimer < 0.0f)
                 inputX = Input.GetAxis("Horizontal");
 
             // GetAxisRaw returns either -1, 0 or 1
             float inputRaw = Input.GetAxisRaw("Horizontal");
             // Check if current move input is larger than 0 and the move direction is equal to the characters facing direction
+
             if (Mathf.Abs(inputRaw) > Mathf.Epsilon && Mathf.Sign(inputRaw) == m_facingDirection)
                 m_moving = true;
 
             else
                 m_moving = false;
-
-            // Swap direction of sprite depending on move direction
         
             // SlowDownSpeed helps decelerate the characters when stopping
             float SlowDownSpeed = m_moving ? 1.0f : 0.5f;
@@ -109,11 +122,12 @@ public class PrototypeHeroControler : MonoBehaviour {
                 m_groundSensor.Disable(0.2f);
             }
 
+            // Roll
             if (Input.GetButtonDown("Roll") && m_grounded){
                 m_animator.SetTrigger("Rolling");
             }
-
-            m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));
         }
+        m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));
+        
     }
 }

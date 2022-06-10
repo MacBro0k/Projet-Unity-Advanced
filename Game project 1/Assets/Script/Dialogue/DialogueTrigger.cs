@@ -20,11 +20,11 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if(playerInRange)
+        if(playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             VisualInteract.SetActive(true);
             if (Input.GetButtonDown("Interact")){
-                Debug.Log(inkJSON.text);
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
         }else{
             VisualInteract.SetActive(false);
