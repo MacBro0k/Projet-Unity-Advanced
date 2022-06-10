@@ -31,7 +31,7 @@ public class weaponScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetAxis("Mouse ScrollWheel")>0f)
         {
             //next Weapon
             if(currentWeaponIndex < totalWeapons-1)
@@ -43,7 +43,7 @@ public class weaponScript : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetAxis("Mouse ScrollWheel")<0f)
         {
             //previous Weapon
             if (currentWeaponIndex > 0)

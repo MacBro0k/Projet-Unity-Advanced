@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+
+
+[System.Serializable]
+public class EventGameState : UnityEvent<GameManager.GameState, GameManager.GameState> {
+    
+}
 
 public class GameManager : Singleton<GameManager>
 {
@@ -14,11 +21,23 @@ public class GameManager : Singleton<GameManager>
     private string _currentLevelName = string.Empty;
     List<AsyncOperation> _loadOperations;
     public GameObject[] SystemPrefabs;
-    private List<GameObject> _instanciedSystemPrefabs;
+    List<GameObject> _instanciedSystemPrefabs;
+    GameState _currentGameState = GameState.PREGAME;
+    public EventGameState OnGameStateChanged;
 
+    public enum GameState
+    {
+        PREGAME,
+        RUNNING,
+        PAUSED
+    }
+
+
+    // Loading Levels Methods
     
     private void Start() {
-        LoadLevel("Lvl_1-2");
+        _currentLevelName = SceneManager.GetActiveScene().name;
+        Debug.Log(_currentLevelName);
         _loadOperations = new List<AsyncOperation>();
         DontDestroyOnLoad(this.gameObject);
         _instanciedSystemPrefabs = new List<GameObject>();
@@ -47,17 +66,25 @@ public class GameManager : Singleton<GameManager>
         _currentLevelName = levelName;
     }
 
-    void OnLoadOperationComplete(AsyncOperation elem) {
+    private void OnLoadOperationComplete(AsyncOperation elem) {
         if (_loadOperations.Contains(elem)) {
             _loadOperations.Remove(elem);
         }
+
         UnloadLevel(_currentLevelName);
+
+        if (_loadOperations.Count == 0)
+            UpdateState(GameState.RUNNING);
+
         Debug.Log("Load Complete");
     }
 
-    void OnUnloadOperationComplete(AsyncOperation elem) {
+    private void OnUnloadOperationComplete(AsyncOperation elem) {
         Debug.Log("Unload Complete");
     }
+
+
+    // Singleton Methods
 
     void InstantiateSystemPrefabs() {
         GameObject prefabInstance;
@@ -78,4 +105,43 @@ public class GameManager : Singleton<GameManager>
 
         _instanciedSystemPrefabs.Clear();
     }
+
+
+    // GameState Methods
+
+    public GameState CurrentGameState
+    {
+        get { return _currentGameState; }
+        set { UpdateState(value); }
+    }
+
+    private void UpdateState(GameState state)
+    {
+        GameState previousGameState = _currentGameState;
+        _currentGameState = state;
+
+        switch (_currentGameState)
+        {
+            case GameState.PREGAME:
+                break;
+
+            case GameState.RUNNING:
+                break;
+
+            case GameState.PAUSED:
+                break;
+
+            default:
+                break;
+        }
+
+        OnGameStateChanged.Invoke(_currentGameState, previousGameState);
+    }
+
+    private void StartGame() {
+        if (CurrentGameState != GameState.PREGAME)
+            return;
+        LoadLevel(_currentLevelName);
+    }
+
 }

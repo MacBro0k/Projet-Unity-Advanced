@@ -7,11 +7,17 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Slider SliderUI;
-
     private GameObject OptionMenu;
-    public void PlayGame() {
-        //GameManager.LoadLevel("SampleScene");
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+    // private void HandleGameStateChanged(GameManager.GameState previousGameState, GameManager.GameState CurrentGameState) {
+    //     if (previousGameState == GameManager.GameState.PREGAME && CurrentGameState == GameManager.GameState.RUNNING)
+    //         PlayGame();
+    // }
+    private void Start() {
+        // GameManager.Instance.OnGameStateChanged.AddListener(HandleGameStateChanged);
+    }
+    public void PlayLevel(string LevelName) {
+        GameManager.Instance.LoadLevel(LevelName);
     }
 
     public void QuitGame() {
@@ -30,11 +36,5 @@ public class MainMenu : MonoBehaviour
         Screen.fullScreen = !Screen.fullScreen;
         Debug.Log("Toggled fullscreen");
     }
-
-    public void Zebi() {
-        Application.OpenURL("https://paypal.me/cestmoilebossjetedis?country.x=FR&locale.x=fr_FR");
-    }
-    
-
 
 }
