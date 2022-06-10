@@ -23,6 +23,7 @@ public class EnemyDetector : MonoBehaviour
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class PlayerSensor : MonoBehaviour
 {
@@ -79,7 +80,8 @@ public class PlayerSensor : MonoBehaviour
             canSeePlayer = false;
     }
 
-    private void OnDrawGizmos(){
+    #if UNITY_EDITOR
+    private void OnDrawGizmos() {
         Gizmos.color = Color.white;
         UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.forward, radius);
 
@@ -95,6 +97,7 @@ public class PlayerSensor : MonoBehaviour
             Gizmos.DrawLine(transform.position, playerRef.transform.position);
         }
     }
+    #endif
 
     private Vector2 DirectionFromAngle(float eulerY, float angleInDegrees){
         angleInDegrees += eulerY;

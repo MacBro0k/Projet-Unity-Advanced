@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+
+
+[System.Serializable]
+public class EventGameState : UnityEvent<GameManager.GameState, GameManager.GameState> {
+    
+}
 
 public class GameManager : Singleton<GameManager>
 {
@@ -16,6 +23,7 @@ public class GameManager : Singleton<GameManager>
     public GameObject[] SystemPrefabs;
     List<GameObject> _instanciedSystemPrefabs;
     GameState _currentGameState = GameState.PREGAME;
+    public EventGameState OnGameStateChanged;
 
     public enum GameState
     {
@@ -62,7 +70,12 @@ public class GameManager : Singleton<GameManager>
         if (_loadOperations.Contains(elem)) {
             _loadOperations.Remove(elem);
         }
+
         UnloadLevel(_currentLevelName);
+
+        if (_loadOperations.Count == 0)
+            UpdateState(GameState.RUNNING);
+
         Debug.Log("Load Complete");
     }
 
@@ -104,6 +117,7 @@ public class GameManager : Singleton<GameManager>
 
     private void UpdateState(GameState state)
     {
+        GameState previousGameState = _currentGameState;
         _currentGameState = state;
 
         switch (_currentGameState)
@@ -120,6 +134,14 @@ public class GameManager : Singleton<GameManager>
             default:
                 break;
         }
+
+        OnGameStateChanged.Invoke(_currentGameState, previousGameState);
+    }
+
+    private void StartGame() {
+        if (CurrentGameState != GameState.PREGAME)
+            return;
+        LoadLevel(_currentLevelName);
     }
 
 }
