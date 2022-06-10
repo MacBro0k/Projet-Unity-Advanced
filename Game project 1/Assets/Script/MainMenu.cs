@@ -9,9 +9,15 @@ public class MainMenu : MonoBehaviour
     public Slider SliderUI;
     private GameObject OptionMenu;
 
-    public void PlayGame() {
-        GameManager.Instance.LoadLevel("TestZone");
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    // private void HandleGameStateChanged(GameManager.GameState previousGameState, GameManager.GameState CurrentGameState) {
+    //     if (previousGameState == GameManager.GameState.PREGAME && CurrentGameState == GameManager.GameState.RUNNING)
+    //         PlayGame();
+    // }
+    private void Start() {
+        // GameManager.Instance.OnGameStateChanged.AddListener(HandleGameStateChanged);
+    }
+    public void PlayLevel(string LevelName) {
+        GameManager.Instance.LoadLevel(LevelName);
     }
 
     public void QuitGame() {
