@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 2004e880b67e7e5468e4b1c1b09e0c28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4287301779504920150
+    second: Cold Girl 32x48_0
+  - first:
+      213: 804798051451913689
+    second: Cold Girl 32x48_1
+  - first:
+      213: 8956083065027344862
+    second: Cold Girl 32x48_2
+  - first:
+      213: -11783217667682963
+    second: Cold Girl 32x48_3
+  - first:
+      213: 3834263084776095674
+    second: Cold Girl 32x48_4
+  - first:
+      213: -1120004840394645428
+    second: Cold Girl 32x48_5
+  - first:
+      213: -7783399501360250505
+    second: Cold Girl 32x48_6
+  - first:
+      213: 7051240707889984462
+    second: Cold Girl 32x48_7
+  - first:
+      213: -5400195925252119674
+    second: Cold Girl 32x48_8
+  - first:
+      213: 5301943708407212328
+    second: Cold Girl 32x48_9
+  - first:
+      213: -7414311704302161299
+    second: Cold Girl 32x48_10
+  - first:
+      213: 3820377545792965721
+    second: Cold Girl 32x48_11
+  - first:
+      213: 6866937894369620993
+    second: Cold Girl 32x48_12
+  - first:
+      213: 5631199158633909900
+    second: Cold Girl 32x48_13
+  - first:
+      213: -1703477675607660742
+    second: Cold Girl 32x48_14
+  - first:
+      213: -924446793075708282
+    second: Cold Girl 32x48_15
+  - first:
+      213: 6817325419517391757
+    second: Cold Girl 32x48_16
+  - first:
+      213: 8732125559759915135
+    second: Cold Girl 32x48_17
+  - first:
+      213: -1855733571626529718
+    second: Cold Girl 32x48_18
+  - first:
+      213: -7356484016287355967
+    second: Cold Girl 32x48_19
+  - first:
+      213: -480891806936028676
+    second: Cold Girl 32x48_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cold Girl 32x48_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa985b32fb17084c0800000000000000
+      internalID: -4287301779504920150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5c7b450973b2b00800000000000000
+      internalID: 804798051451913689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9b8d5a8166a4c70800000000000000
+      internalID: 8956083065027344862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d4b98d93326dff0800000000000000
+      internalID: -11783217667682963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abff877f5f9063530800000000000000
+      internalID: 3834263084776095674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c402f8d1881f470f0800000000000000
+      internalID: -1120004840394645428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714878446fcbf390800000000000000
+      internalID: -7783399501360250505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec37e83901a0bd160800000000000000
+      internalID: 7051240707889984462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683e5ddda66ae05b0800000000000000
+      internalID: -5400195925252119674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829aabe36b9449940800000000000000
+      internalID: 5301943708407212328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627c03a9c21b1990800000000000000
+      internalID: -7414311704302161299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c4edcf225b40530800000000000000
+      internalID: 3820377545792965721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_12
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104f190e1a34c4f50800000000000000
+      internalID: 6866937894369620993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_13
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 64
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e4ad5acc9062e40800000000000000
+      internalID: 5631199158633909900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37e89654180c58e0800000000000000
+      internalID: -1703477675607660742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e29f42a84bb23f0800000000000000
+      internalID: -924446793075708282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83339c69510c9e50800000000000000
+      internalID: 6817325419517391757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78499b8eedbe2970800000000000000
+      internalID: 8732125559759915135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0f61162c1f36e0800000000000000
+      internalID: -1855733571626529718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6a5573c488e990800000000000000
+      internalID: -7356484016287355967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cold Girl 32x48_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ae2013778359f0800000000000000
+      internalID: -480891806936028676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
