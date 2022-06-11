@@ -40,6 +40,11 @@ public class weaponScript : MonoBehaviour
                 currentWeaponIndex += 1;
                 guns[currentWeaponIndex].SetActive(true);
                 currentGun = guns[currentWeaponIndex];
+            }else{
+                guns[currentWeaponIndex].SetActive(false);
+                currentWeaponIndex -= 1;
+                guns[currentWeaponIndex].SetActive(true);
+                currentGun = guns[currentWeaponIndex];
             }
         }
 
@@ -50,6 +55,11 @@ public class weaponScript : MonoBehaviour
             {
                 guns[currentWeaponIndex].SetActive(false);
                 currentWeaponIndex -= 1;
+                guns[currentWeaponIndex].SetActive(true);
+                currentGun = guns[currentWeaponIndex];
+            }else{
+                                guns[currentWeaponIndex].SetActive(false);
+                currentWeaponIndex += 1;
                 guns[currentWeaponIndex].SetActive(true);
                 currentGun = guns[currentWeaponIndex];
             }
