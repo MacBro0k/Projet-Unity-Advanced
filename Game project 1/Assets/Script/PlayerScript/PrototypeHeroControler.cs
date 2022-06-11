@@ -12,13 +12,28 @@ public class PrototypeHeroControler : MonoBehaviour {
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
     private Sensor_Prototype    m_groundSensor;
+
+    // temp
+    public Transform            wallCheck;
+    public Transform            LedgeCheck;
+
     private bool                m_grounded = false;
     private bool                m_moving = false;
     private bool                m_canMove = true;
     public bool                 m_canShoot {get; private set; }
     private bool                m_Talk = false;
+    private bool                m_isTouchingWallR;
+    private bool                m_isTouchingWallL;
+    private bool                m_isTouchingLedge;
+
+
     private int                 m_facingDirection = 1;
     private float               m_disableMovementTimer = 0.0f;
+
+    public LayerMask LayerGround;
+    public float wallCheckDistance;
+    public float wallSlidingSpeed;
+
 
     // Use this for initialization
     void Start ()
@@ -59,6 +74,11 @@ public class PrototypeHeroControler : MonoBehaviour {
         m_canShoot =! m_canShoot;
     }
 
+    // Function that called when player no longer Roll
+    public void NoLongerRolling(){
+        m_animator.SetBool("IsRolling",false);
+    }
+
     // Function to flip character 
     public void Flip(){
         if (m_facingDirection == -1)
@@ -75,8 +95,17 @@ public class PrototypeHeroControler : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update ()
+    public void Update ()
     {
+
+        m_isTouchingWallR = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, LayerGround);
+        if(!m_isTouchingWallR)
+            m_isTouchingWallL = Physics2D.Raycast(wallCheck.position, -transform.right, wallCheckDistance, LayerGround);
+
+        m_animator.SetBool("Wallslide", m_isTouchingWallR||m_isTouchingWallL);
+        m_animator.SetBool("WallslideR", m_isTouchingWallR);
+        m_animator.SetBool("WallslideL", m_isTouchingWallL);
+
         //Disable mouvement if Character Speaking
         if(DialogueManager.GetInstance().dialogueIsPlaying){
             m_canMove = false;
@@ -132,11 +161,16 @@ public class PrototypeHeroControler : MonoBehaviour {
             // Set AirSpeed in animator
             m_animator.SetFloat("AirSpeedY", m_body2d.velocity.y);
 
+            if((m_isTouchingWallR||m_isTouchingWallL) && !m_grounded && m_body2d.velocity.y < 0){
+                if(m_body2d.velocity.y < -wallSlidingSpeed){
+                    m_body2d.velocity = new Vector2(m_body2d.velocity.x, -wallSlidingSpeed);
+                }
+            }
+
             // -- Handle Animations --
             //Jump
             if (Input.GetButtonDown("Jump") && m_grounded && m_disableMovementTimer < 0.0f)
             {
-                m_animator.SetTrigger("Jump");
                 m_grounded = false;
                 m_animator.SetBool("Grounded", m_grounded);
                 m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
@@ -145,11 +179,17 @@ public class PrototypeHeroControler : MonoBehaviour {
 
             // Roll
             if (Input.GetButtonDown("Roll") && m_grounded){
-                m_animator.SetTrigger("Rolling");
+                m_animator.SetBool("IsRolling",true);
             }
-            m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));
+            m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));         
         }
-
-        
     }
+    #if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
+
+        Gizmos.DrawLine(LedgeCheck.position, new Vector3(LedgeCheck.position.x + wallCheckDistance, LedgeCheck.position.y));
+    }   
+    #endif
 }
