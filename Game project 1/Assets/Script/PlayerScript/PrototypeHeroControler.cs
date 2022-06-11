@@ -15,32 +15,49 @@ public class PrototypeHeroControler : MonoBehaviour {
     private bool                m_grounded = false;
     private bool                m_moving = false;
     private bool                m_canMove = true;
+    public bool                 m_canShoot {get; private set; }
+    private bool                m_Talk = false;
     private int                 m_facingDirection = 1;
     private float               m_disableMovementTimer = 0.0f;
 
     // Use this for initialization
     void Start ()
     {
+        m_canShoot = true;
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_Prototype>();
         Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
+    // Make player go forward
     public void ForceForceward(float speed){
         m_body2d.velocity = transform.right * speed;
     }
 
-    /*public void StopForceForceward(){
-        m_body2d.velocity = 0;
-    }*/
+    // Funtion that make player pass through cummon collider
+    public void PassThrough()
+    {
+        // Ignore collision with enemies
+        Physics2D.IgnoreLayerCollision(3,6,true);
+    }
 
+    // Funtion that stop the effect of the last Function
+    public void DontPassThrough()
+    {
+        // Ignore collision with enemies
+        Physics2D.IgnoreLayerCollision(3,6,false);
+    }
 
     // Function to avoid character movement
     public void CantMove (){
         m_canMove = !m_canMove;
     }
 
+    // Function that disable player shooting
+    public void CantShoot(){
+        m_canShoot =! m_canShoot;
+    }
 
     // Function to flip character 
     public void Flip(){
@@ -63,15 +80,19 @@ public class PrototypeHeroControler : MonoBehaviour {
         //Disable mouvement if Character Speaking
         if(DialogueManager.GetInstance().dialogueIsPlaying){
             m_canMove = false;
+            m_canShoot = false;
+            m_Talk = true;
         }
-        else if (!m_canMove)
+        else if (!m_canMove && m_Talk)
         {
+            m_Talk = false;
             m_canMove = true;
+            m_canShoot = true;
         }
 
         // Decrease timer that disables input movement. Used when attacking
         m_disableMovementTimer -= Time.deltaTime;
-
+        if(m_canMove){
             //Check if character just landed on the ground
             if (!m_grounded && m_groundSensor.State())
             {
@@ -89,7 +110,7 @@ public class PrototypeHeroControler : MonoBehaviour {
             // -- Handle input and movement --
             float inputX = 0.0f;
 
-        if(m_canMove){
+
             if (m_disableMovementTimer < 0.0f)
                 inputX = Input.GetAxis("Horizontal");
 
@@ -126,8 +147,9 @@ public class PrototypeHeroControler : MonoBehaviour {
             if (Input.GetButtonDown("Roll") && m_grounded){
                 m_animator.SetTrigger("Rolling");
             }
+            m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));
         }
-        m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));
+
         
     }
 }
