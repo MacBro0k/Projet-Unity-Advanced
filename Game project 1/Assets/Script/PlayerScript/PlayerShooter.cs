@@ -9,6 +9,7 @@ public class PlayerShooter : MonoBehaviour
     public Transform firepoint;
     public GameObject Bullet;
     public GameObject BlastEffect;
+    public GameObject BlastSound;
     
     public float ColdownTime = 1f;
 
@@ -36,6 +37,7 @@ public class PlayerShooter : MonoBehaviour
                     m_animator.SetBool("IsCharging", true);
                 }else{
                     Shoot();
+                    Instantiate(BlastSound);
                 }
             }
         }

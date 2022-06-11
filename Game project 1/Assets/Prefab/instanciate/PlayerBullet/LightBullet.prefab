@@ -114,13 +114,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7116288699873834947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0b5be2636e74145b876b34fdb0e979, type: 3}
+  m_Script: {fileID: 11500000, guid: bb12e2a97841b9c4cb6a87f6de84db12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  damage: 7
+  damage: 15
   rb: {fileID: 7116288699873834948}
-  Residue: {fileID: 5175321488874364618, guid: b75594e0c8c08844da6a405184a26820, type: 3}
+  Residue: {fileID: 7116288699873834947}
 --- !u!50 &7116288699873834948
 Rigidbody2D:
   serializedVersion: 4
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.05, y: 0.03}
+    oldSize: {x: 0.078125, y: 0.046875}
     newSize: {x: 0.05, y: 0.03}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

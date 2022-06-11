@@ -6,6 +6,7 @@ public class PrototypeHeroControler : MonoBehaviour {
     [Header("Variables")]
     [SerializeField] float      m_maxSpeed = 4.5f;
     [SerializeField] float      m_jumpForce = 7.5f;
+    [SerializeField] GameObject JumpSound;
     [SerializeField] Texture2D  defaultCursor;
     [Header("Effects")]
 
@@ -152,6 +153,7 @@ public class PrototypeHeroControler : MonoBehaviour {
                 m_animator.SetBool("Grounded", m_grounded);
                 m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
                 m_groundSensor.Disable(0.2f);
+                Instantiate(JumpSound);
             }
 
             // Roll
