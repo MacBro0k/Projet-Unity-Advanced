@@ -69,6 +69,15 @@ public class PrototypeHeroControler : MonoBehaviour {
             m_canMove = true;
         }
 
+        if (Cutscene.GetInstance().CutscenePlaying)
+        {
+            m_canMove = false;
+        }
+        else if (!m_canMove)
+        {
+            m_canMove = true;
+        }
+
         // Decrease timer that disables input movement. Used when attacking
         m_disableMovementTimer -= Time.deltaTime;
 

@@ -45,4 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemPrefabs:
   - {fileID: 4223633679324066297, guid: 776997bcf496be54f938fd3af64d745e, type: 3}
-  - {fileID: 593253122280883842, guid: 736d400c81715914781b2707f59e5c6d, type: 3}
+  OnGameStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
