@@ -350,6 +350,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 327949736, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6120677
+      objectReference: {fileID: 0}
+    - target: {fileID: 327949736, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.027994871
+      objectReference: {fileID: 0}
     - target: {fileID: 1140475837, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: lifebar
       value: 
@@ -406,6 +414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 943487100179984019, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2050454685418586923, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_Size.x
       value: 0.4196763
@@ -414,8 +426,48 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.08921313
       objectReference: {fileID: 0}
+    - target: {fileID: 5717614994929942493, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.217
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717614994929942493, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallJumpForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: wallSlidingSpeed
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallCheckDistance
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: ledgeClimbXoffset1
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: ledgeClimbXoffset2
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: ledgeClimbYoffset1
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: ledgeClimbYoffset2
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallJumpDirection.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallJumpDirection.y
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []

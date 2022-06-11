@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jump_Soldier_Animation
+  m_Name: StarWallSlide
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6549787439804165106, guid: 8f35a709452f3ee4e9aa2367302d35cf, type: 3}
+      value: {fileID: -7649589185210529545, guid: cf47ba5fd56b7e040a56b98e74d2e81a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -40,7 +40,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6549787439804165106, guid: 8f35a709452f3ee4e9aa2367302d35cf, type: 3}
+    - {fileID: -7649589185210529545, guid: cf47ba5fd56b7e040a56b98e74d2e81a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -67,7 +67,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: FlipSprite
+    functionName: Flip
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

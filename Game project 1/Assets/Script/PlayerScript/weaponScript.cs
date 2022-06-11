@@ -12,6 +12,15 @@ public class weaponScript : MonoBehaviour
     public GameObject currentGun;
 
     // Start is called before the first frame update
+    public void Disable(){
+        guns[currentWeaponIndex].SetActive(false);
+    }
+
+
+    public void Enable(){
+        guns[currentWeaponIndex].SetActive(true);
+    }
+    
     void Start()
     {
         totalWeapons = weaponHolder.transform.childCount;
