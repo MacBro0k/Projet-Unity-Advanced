@@ -5,18 +5,19 @@ using UnityEngine;
 public class Cutscene: MonoBehaviour
 {
     static Cutscene instance;
-    public bool CutscenePlaying;
+    public bool CutscenePlaying {get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
-        CutscenePlaying = false;
+
     }
 
     private void Awake()
     {
         if (instance != null)
         {
-            Debug.LogWarning("More than one Dialogue Mana in the scene");
+            Debug.LogWarning("More than one Cutscene in the scene");
         }
         instance = this;
     }
@@ -26,8 +27,13 @@ public class Cutscene: MonoBehaviour
         return instance;
     }
 
-    public void ToggleCutscene()
+    public void StartCutscene()
     {
-        CutscenePlaying = !CutscenePlaying;
+        CutscenePlaying = true;
+    }
+
+    public void EndCutscene() {
+        CutscenePlaying = false;
+        Destroy(gameObject.GetComponent<Animator>());
     }
 }
