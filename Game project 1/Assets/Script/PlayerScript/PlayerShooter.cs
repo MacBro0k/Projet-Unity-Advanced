@@ -62,18 +62,26 @@ public class PlayerShooter : MonoBehaviour
 
                 }
                 else if (SecondaryAttack == SecondaryAttackList.Laser){
-                    if(m_Player.GetComponent<PlayerInventory>().Laser == 0){
+                    //if(m_Player.GetComponent<PlayerInventory>().Laser == 0){
                         RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right);
 
                         if(HitInfo){
                             EnemyControler enemy = HitInfo.transform.GetComponent<EnemyControler>();
                             if (enemy != null){
                                 enemy.TakeDamage(LaserDamage);
+                            }else{
+                                Destroy(enemy);
+                            }
+                            DoorActivator Door = HitInfo.transform.GetComponent<DoorActivator>();
+                            if (Door != null){
+                                Door.Activate();
+                            }else{
+                                Destroy(Door);
                             }
 
                             Instantiate(LaserImpactEffect, HitInfo.point, Quaternion.identity);
                         }
-                    }
+                    //}
                 }
                 else{
                     Debug.LogWarning("No secondary_attack Selected");

@@ -676,7 +676,7 @@ MonoBehaviour:
   BlastSound: {fileID: 3598492377842042946, guid: 460bd1af623ba3546b5f41678ea9f8b1, type: 3}
   Rocket: {fileID: 0}
   LaserImpactEffect: {fileID: 0}
-  SecondaryAttack: 0
+  SecondaryAttack: 1
   LaserDamage: 0
   ColdownTime: 0.5
 --- !u!95 &485195867
