@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class PlayerHearth : MonoBehaviour
 {
     public CanvasGroup endCG;
-    public Text endGameUIText; 
+    public TextMeshProUGUI endGameUIText; 
     public string endText = "You win!";
     public string endTextLoose = "You died!";
 
@@ -33,8 +34,8 @@ public class PlayerHearth : MonoBehaviour
     }
     public void MakeDead(){
         endText = endTextLoose;
-        Destroy(gameObject);
         EndGame();
+        Destroy(gameObject);
     }
 
 

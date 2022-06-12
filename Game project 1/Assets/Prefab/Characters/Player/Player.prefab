@@ -221,13 +221,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_maxSpeed: 4
   m_jumpForce: 8
+  JumpSound: {fileID: 1573608479562467862, guid: b7d617215c6ee044d9d94ff5a9955b37, type: 3}
   defaultCursor: {fileID: 2800000, guid: 9ef3d4fc70c02c14287454633b78f9d9, type: 3}
   wallCheck: {fileID: 1941862703}
   LedgeCheck: {fileID: 619054952}
+  ledgePosBot: {x: 0, y: 0}
+  ledgePos1: {x: 0, y: 0}
+  ledgePos2: {x: 0, y: 0}
+  ledgeClimbXoffset1: 0
+  ledgeClimbYoffset1: 0
+  ledgeClimbXoffset2: 0
+  ledgeClimbYoffset2: 0
   LayerGround:
     serializedVersion: 2
     m_Bits: 128
   wallCheckDistance: 0.8
+  wallSlidingSpeed: 0
+  wallJumpForce: 0
 --- !u!70 &327949736
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -497,6 +507,7 @@ MonoBehaviour:
   firepoint: {fileID: 1379999829857118219}
   Bullet: {fileID: 1425365237239811405, guid: db992e53882622c46a5ea7631c7f432a, type: 3}
   BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
+  BlastSound: {fileID: 618600684669347754, guid: 311668af027e0264bac8bc307dfedf48, type: 3}
   ColdownTime: 0.2
 --- !u!1 &5345932756995291832
 GameObject:
@@ -658,6 +669,7 @@ MonoBehaviour:
   firepoint: {fileID: 7294628783821227117}
   Bullet: {fileID: 4289122152762678142, guid: b04643110bebafe4dad76a5943c00a38, type: 3}
   BlastEffect: {fileID: 8323483355916276340, guid: a2aebcf2af605b4498f6a92543ec441a, type: 3}
+  BlastSound: {fileID: 3598492377842042946, guid: 460bd1af623ba3546b5f41678ea9f8b1, type: 3}
   ColdownTime: 0.5
 --- !u!95 &485195867
 Animator:

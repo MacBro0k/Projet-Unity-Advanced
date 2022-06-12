@@ -32,6 +32,18 @@ public class GameManager : Singleton<GameManager>
         PAUSED
     }
 
+    // Getters and setters
+
+    public string CurrentLevelName {
+        get{return _currentLevelName;}
+    }
+
+    public GameState CurrentGameState
+    {
+        get { return _currentGameState; }
+        set { UpdateState(value); }
+    }
+
 
     // Loading Levels Methods
     
@@ -48,22 +60,22 @@ public class GameManager : Singleton<GameManager>
         ao.completed += OnLoadOperationComplete;
         _loadOperations.Add(ao);
 
-        if (ao != null) {
-            Debug.LogError("[GameManager] Unable to load level" + levelName);
+        if (_loadOperations.Contains(ao)) {
+            Debug.LogError("[GameManager] Unable to load level " + levelName);
             return;
         }
         
         _currentLevelName = levelName;
+        Debug.Log(CurrentLevelName);
     }
     public void UnloadLevel(string levelName) {
         AsyncOperation ao = SceneManager.UnloadSceneAsync(levelName);
         ao.completed += OnUnloadOperationComplete;
 
-        if (ao != null) {
-            Debug.LogError("[GameManager] Unable to unload level" + levelName);
+        if (_loadOperations.Contains(ao)) {
+            Debug.LogError("[GameManager] Unable to unload level " + levelName);
             return;
         }
-        _currentLevelName = levelName;
     }
 
     private void OnLoadOperationComplete(AsyncOperation elem) {
@@ -108,12 +120,6 @@ public class GameManager : Singleton<GameManager>
 
 
     // GameState Methods
-
-    public GameState CurrentGameState
-    {
-        get { return _currentGameState; }
-        set { UpdateState(value); }
-    }
 
     private void UpdateState(GameState state)
     {
