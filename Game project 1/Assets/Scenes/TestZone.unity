@@ -463,6 +463,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallSlidingSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: wallCheckDistance
+      value: 0.63
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
 --- !u!114 &2124664739 stripped
