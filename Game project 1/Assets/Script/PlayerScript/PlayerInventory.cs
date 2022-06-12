@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -27,11 +28,14 @@ public class PlayerInventory : MonoBehaviour
     // Interface Image
     public Image lifebar;
     public Image laserbar;
+    public TextMeshProUGUI AmmoAmountUI;
 
     void Start()
     {
         m_animator = GetComponent<Animator>();
         Life = MaxLife;
+        Laser = 0;
+        laserbar.fillAmount = 0;
     }
 
     //////////////////////////////////////////////////////////////////////////
@@ -101,11 +105,13 @@ public class PlayerInventory : MonoBehaviour
 
     // Ajoute des Rockets dans l'inventaire du joueur
     public void AddRocket(int Amount){
-        for(int i = 0; i<=Amount; i++){
+        for(int i = 0; i<Amount; i++){
             if(Rocket == MaxRocket)
                 break;
             Rocket++;
         }
+        AmmoAmountUI.SetText(Rocket.ToString());
+        Debug.Log("A ramassé une rocket");
     }
 
     // Retire des Rockets dans l'inventaire du joueur
