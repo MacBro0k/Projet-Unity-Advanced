@@ -341,10 +341,6 @@ PrefabInstance:
       propertyPath: AmmoAmountUI
       value: 
       objectReference: {fileID: 984176210}
-    - target: {fileID: 1761248183, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
-      propertyPath: Beam
-      value: 
-      objectReference: {fileID: 605186468}
     - target: {fileID: 943487100179984016, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_Name
       value: Player
