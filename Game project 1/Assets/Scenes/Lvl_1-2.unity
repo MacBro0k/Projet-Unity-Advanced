@@ -130,14 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 516224990, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
-      propertyPath: BlastSound
-      value: 
-      objectReference: {fileID: 3598492377842042946, guid: 460bd1af623ba3546b5f41678ea9f8b1, type: 3}
-    - target: {fileID: 1761248183, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
-      propertyPath: BlastSound
-      value: 
-      objectReference: {fileID: 618600684669347754, guid: 311668af027e0264bac8bc307dfedf48, type: 3}
+    - target: {fileID: 619054952, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941862703, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.248
+      objectReference: {fileID: 0}
     - target: {fileID: 943487100179984016, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: m_Name
       value: Player
@@ -187,9 +187,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
-      propertyPath: JumpSound
-      value: 
-      objectReference: {fileID: 1573608479562467862, guid: b7d617215c6ee044d9d94ff5a9955b37, type: 3}
+      propertyPath: ledgeClimbXoffset1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632061669327895637, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: ledgeClimbYoffset1
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
 --- !u!4 &90892433 stripped

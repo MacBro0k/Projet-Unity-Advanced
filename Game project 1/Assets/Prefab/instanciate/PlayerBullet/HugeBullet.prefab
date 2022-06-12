@@ -120,7 +120,7 @@ MonoBehaviour:
   speed: 20
   damage: 15
   rb: {fileID: 4289122152762678131}
-  Residue: {fileID: 4289122152762678142}
+  Residue: {fileID: 457086832116725224, guid: ac88866e871133041a7317e7a228a04e, type: 3}
 --- !u!50 &4289122152762678131
 Rigidbody2D:
   serializedVersion: 4
