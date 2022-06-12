@@ -27,11 +27,6 @@ public class BulletScript : MonoBehaviour
             Instantiate(Residue, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
         }
-        else if (hit.tag == "BreakableWall"){
-            hit.GetComponent<ObstacleControler>().Break();
-            Instantiate(Residue, gameObject.transform.position, gameObject.transform.rotation);
-            Destroy(gameObject);
-        }
 
     }
 
