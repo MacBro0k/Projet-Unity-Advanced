@@ -11,13 +11,13 @@ public class MainMenu : MonoBehaviour
 
     // private void HandleGameStateChanged(GameManager.GameState previousGameState, GameManager.GameState CurrentGameState) {
     //     if (previousGameState == GameManager.GameState.PREGAME && CurrentGameState == GameManager.GameState.RUNNING)
-    //         PlayGame();
+    //         GameManager.Instance.StartGame();
     // }
     private void Start() {
         // GameManager.Instance.OnGameStateChanged.AddListener(HandleGameStateChanged);
     }
     public void PlayLevel(string LevelName) {
-        GameManager.Instance.LoadLevel(LevelName);
+        SceneManager.LoadScene(LevelName);
     }
 
     public void QuitGame() {
