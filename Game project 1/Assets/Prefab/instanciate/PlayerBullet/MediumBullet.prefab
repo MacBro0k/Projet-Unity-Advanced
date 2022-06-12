@@ -120,7 +120,7 @@ MonoBehaviour:
   speed: 20
   damage: 15
   rb: {fileID: 1425365237239811409}
-  Residue: {fileID: 1425365237239811405}
+  Residue: {fileID: 8387684989082723472, guid: 4274293f438aa0b49b34d3eac33df85b, type: 3}
 --- !u!61 &1425365237239811414
 BoxCollider2D:
   m_ObjectHideFlags: 0
