@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906640219}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.045, y: -0.8156, z: 0}
+  m_LocalPosition: {x: 0.485, y: -0.402, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5367998970787587532}
@@ -190,6 +190,7 @@ MonoBehaviour:
   bullet: {fileID: 4935638312043528639, guid: 2b45231c820fe164eb5139a7c7d8a184, type: 3}
   Sensor: {fileID: 7982820377158168447}
   groundDetection: {fileID: 906640220}
+  ShootSound: {fileID: 0}
   PatrolSpeed: 1.3
   RayDistance: 0.1
   MaxDist: 6
@@ -212,7 +213,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.40923914, y: -0.010987043}
+  m_Offset: {x: 0.40923914, y: -0.0002092421}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -223,7 +224,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.501584, y: 0.9848877}
+  m_Size: {x: 0.501584, y: 0.7154444}
   m_EdgeRadius: 0
 --- !u!1 &7982820377158168447
 GameObject:
@@ -276,4 +277,4 @@ MonoBehaviour:
     m_Bits: 8
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 129
+    m_Bits: 768

@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941862702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.318, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 943487100179984018}
@@ -208,6 +208,7 @@ MonoBehaviour:
   MaxGrenade: 5
   lifebar: {fileID: 0}
   laserbar: {fileID: 0}
+  AmmoAmountUI: {fileID: 0}
 --- !u!114 &8632061669327895637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,7 +511,7 @@ MonoBehaviour:
   BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
   BlastSound: {fileID: 618600684669347754, guid: 311668af027e0264bac8bc307dfedf48, type: 3}
   Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
-  Beam: {fileID: 0}
+  Beam: {fileID: 8629298611185504787}
   SecondaryAttack: 0
   LaserDamage: 0
   ColdownTime: 0.2
@@ -624,7 +625,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b58354c186d9bde42ad2a4ab0545dde9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -650,13 +651,13 @@ LineRenderer:
   - {x: 0, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.033218384
-        value: 0.65789413
+        time: 0
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -695,7 +696,7 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 0
+    numCornerVertices: 1
     numCapVertices: 3
     alignment: 0
     textureMode: 0
@@ -807,7 +808,7 @@ MonoBehaviour:
   Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
   Beam: {fileID: 8629298611185504787}
   SecondaryAttack: 1
-  LaserDamage: 12
+  LaserDamage: 1
   ColdownTime: 0.5
 --- !u!95 &485195867
 Animator:
