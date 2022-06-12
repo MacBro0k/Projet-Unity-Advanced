@@ -98,6 +98,7 @@ Transform:
   - {fileID: 5717614994929942493}
   - {fileID: 1941862703}
   - {fileID: 619054952}
+  - {fileID: 5650977445560229669}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -508,8 +509,8 @@ MonoBehaviour:
   Bullet: {fileID: 1425365237239811405, guid: db992e53882622c46a5ea7631c7f432a, type: 3}
   BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
   BlastSound: {fileID: 618600684669347754, guid: 311668af027e0264bac8bc307dfedf48, type: 3}
-  Rocket: {fileID: 0}
-  LaserImpactEffect: {fileID: 0}
+  Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
+  Beam: {fileID: 0}
   SecondaryAttack: 0
   LaserDamage: 0
   ColdownTime: 0.2
@@ -573,6 +574,135 @@ Transform:
   m_Father: {fileID: 3593834256270150604}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7696151599707627558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5650977445560229669}
+  - component: {fileID: 8629298611185504787}
+  m_Layer: 0
+  m_Name: Beam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5650977445560229669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696151599707627558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8330002, y: 0.106999874, z: -10.731697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 943487100179984018}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &8629298611185504787
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696151599707627558}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Positions:
+  - {x: 4, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.033218384
+        value: 0.65789413
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.6701977, b: 1, a: 1}
+      key1: {r: 0, g: 0.86513233, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 3
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
 --- !u!1 &7990050333404973963
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,10 +804,10 @@ MonoBehaviour:
   Bullet: {fileID: 4289122152762678142, guid: b04643110bebafe4dad76a5943c00a38, type: 3}
   BlastEffect: {fileID: 8323483355916276340, guid: a2aebcf2af605b4498f6a92543ec441a, type: 3}
   BlastSound: {fileID: 3598492377842042946, guid: 460bd1af623ba3546b5f41678ea9f8b1, type: 3}
-  Rocket: {fileID: 0}
-  LaserImpactEffect: {fileID: 0}
+  Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
+  Beam: {fileID: 8629298611185504787}
   SecondaryAttack: 1
-  LaserDamage: 0
+  LaserDamage: 12
   ColdownTime: 0.5
 --- !u!95 &485195867
 Animator:

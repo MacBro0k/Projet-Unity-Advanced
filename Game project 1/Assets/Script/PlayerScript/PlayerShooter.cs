@@ -11,7 +11,7 @@ public class PlayerShooter : MonoBehaviour
     public GameObject BlastEffect;
     public GameObject BlastSound;
     public GameObject Rocket;
-    public GameObject LaserImpactEffect;
+    public LineRenderer Beam;
 
     public enum SecondaryAttackList{
         Rocket, 
@@ -27,9 +27,11 @@ public class PlayerShooter : MonoBehaviour
     private Animator m_animator;
 
     private GameObject m_Player;
+    private bool IsBeaming = false;
 
     void Start(){
         m_Player = transform.root.gameObject;
+        Beam.enabled = false;
         try{
             m_animator = GetComponent<Animator>();      
         }
@@ -41,6 +43,7 @@ public class PlayerShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        IsBeaming = false;
         m_canShoot = m_Player.GetComponent<PrototypeHeroControler>().m_canShoot;
 
         if(m_canShoot && Time.time >= endColdownTime){
@@ -61,35 +64,42 @@ public class PlayerShooter : MonoBehaviour
                     }
 
                 }
-                else if (SecondaryAttack == SecondaryAttackList.Laser){
+            }
+            else if (Input.GetButton("Fire2")){
+                if(SecondaryAttack == SecondaryAttackList.Laser){
                     //if(m_Player.GetComponent<PlayerInventory>().Laser == 0){
-                        RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right);
+                            IsBeaming = true;
+                            RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right);
 
-                        if(HitInfo){
-                            EnemyControler enemy = HitInfo.transform.GetComponent<EnemyControler>();
-                            if (enemy != null){
-                                enemy.TakeDamage(LaserDamage);
+                            if(HitInfo){
+                                EnemyControler enemy = HitInfo.transform.GetComponent<EnemyControler>();
+                                if (enemy != null){
+                                    enemy.TakeDamage(LaserDamage);
+                                }else{
+                                    Destroy(enemy);
+                                }
+                                DoorActivator Door = HitInfo.transform.GetComponent<DoorActivator>();
+                                if (Door != null){
+                                    Door.Activate();
+                                }else{
+                                    Destroy(Door);
+                                }
+                                Beam.SetPosition(0,firepoint.position);
+                                Beam.SetPosition(1,HitInfo.point);
                             }else{
-                                Destroy(enemy);
+                                Beam.SetPosition(0,firepoint.position);
+                                Beam.SetPosition(1,firepoint.position + firepoint.right * 100);
                             }
-                            DoorActivator Door = HitInfo.transform.GetComponent<DoorActivator>();
-                            if (Door != null){
-                                Door.Activate();
-                            }else{
-                                Destroy(Door);
-                            }
-
-                            Instantiate(LaserImpactEffect, HitInfo.point, Quaternion.identity);
-                        }
+                            Beam.enabled = true;
                     //}
                 }
-                else{
-                    Debug.LogWarning("No secondary_attack Selected");
-                }
             }
-
+            if(!IsBeaming)
+                Beam.enabled = false;
         }
+
     }
+    
 
     void Shoot (){
         endColdownTime = Time.time + ColdownTime;
