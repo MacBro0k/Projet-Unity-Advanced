@@ -32,6 +32,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 838621555, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
+      propertyPath: ShootSound
+      value: 
+      objectReference: {fileID: 7033663370401555683, guid: 758c48a8d7601ad44a59d2b7ef8231a6, type: 3}
+    - target: {fileID: 838621555, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
       propertyPath: IsPatroling
       value: 0
       objectReference: {fileID: 0}
