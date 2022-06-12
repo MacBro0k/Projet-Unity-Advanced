@@ -10,6 +10,13 @@ public class PlayerShooter : MonoBehaviour
     public GameObject Bullet;
     public GameObject BlastEffect;
     public GameObject BlastSound;
+    public GameObject Rocket;
+
+    public enum SecondaryAttackList{
+        Rocket, 
+        Laser
+    }
+    public SecondaryAttackList SecondaryAttack;
     
     public float ColdownTime = 1f;
 
@@ -40,6 +47,19 @@ public class PlayerShooter : MonoBehaviour
                     Instantiate(BlastSound);
                 }
             }
+            else if (Input.GetButtonDown("Fire2")){
+                if( SecondaryAttack == SecondaryAttackList.Rocket){
+                    endColdownTime = Time.time + ColdownTime;
+                    Instantiate(Rocket, firepoint.position, firepoint.rotation);
+                }
+                else if (SecondaryAttack == SecondaryAttackList.Laser){
+                    Debug.Log("Laser");
+                }
+                else{
+                    Debug.LogWarning("No secondary_attack Selected");
+                }
+            }
+
         }
     }
 
