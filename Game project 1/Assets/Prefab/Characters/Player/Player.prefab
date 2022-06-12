@@ -228,15 +228,15 @@ MonoBehaviour:
   ledgePosBot: {x: 0, y: 0}
   ledgePos1: {x: 0, y: 0}
   ledgePos2: {x: 0, y: 0}
-  ledgeClimbXoffset1: -0.5
-  ledgeClimbYoffset1: 0.15
-  ledgeClimbXoffset2: 0.8
+  ledgeClimbXoffset1: 0.5
+  ledgeClimbYoffset1: 0.2
+  ledgeClimbXoffset2: 0.5
   ledgeClimbYoffset2: 2
   LayerGround:
     serializedVersion: 2
-    m_Bits: 384
-  wallCheckDistance: 0.44
-  wallSlidingSpeed: 1.3
+    m_Bits: 768
+  wallCheckDistance: 0.63
+  wallSlidingSpeed: 1.5
   wallJumpForce: 10
 --- !u!70 &327949736
 CapsuleCollider2D:
@@ -251,8 +251,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016740024, y: 0.027994871}
-  m_Size: {x: 0.65897673, y: 1.6120677}
+  m_Offset: {x: 0.016740024, y: 0.047233265}
+  m_Size: {x: 0.65897673, y: 1.6697834}
   m_Direction: 0
 --- !u!95 &1387975111
 Animator:
@@ -318,7 +318,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08921313, y: -0.13112514}
+  m_Offset: {x: 0.10697055, y: -0.13112514}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -329,7 +329,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4196763, y: 0.22183576}
+  m_Size: {x: 0.4976592, y: 0.22183576}
   m_EdgeRadius: 0
 --- !u!114 &6038918019528839901
 MonoBehaviour:
@@ -369,7 +369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3482757799840425770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.217, y: 0.14, z: 0}
+  m_LocalPosition: {x: -0.217, y: 0.116, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3593834256270150604}
@@ -508,8 +508,10 @@ MonoBehaviour:
   Bullet: {fileID: 1425365237239811405, guid: db992e53882622c46a5ea7631c7f432a, type: 3}
   BlastEffect: {fileID: 6267982222516958632, guid: 946476edf92fe95438775d69e9ec3d65, type: 3}
   BlastSound: {fileID: 618600684669347754, guid: 311668af027e0264bac8bc307dfedf48, type: 3}
-  Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
+  Rocket: {fileID: 0}
+  LaserImpactEffect: {fileID: 0}
   SecondaryAttack: 0
+  LaserDamage: 0
   ColdownTime: 0.2
 --- !u!1 &5345932756995291832
 GameObject:
@@ -672,8 +674,10 @@ MonoBehaviour:
   Bullet: {fileID: 4289122152762678142, guid: b04643110bebafe4dad76a5943c00a38, type: 3}
   BlastEffect: {fileID: 8323483355916276340, guid: a2aebcf2af605b4498f6a92543ec441a, type: 3}
   BlastSound: {fileID: 3598492377842042946, guid: 460bd1af623ba3546b5f41678ea9f8b1, type: 3}
-  Rocket: {fileID: 555356755970954189, guid: 27119f9aed4f35144b04ad31d41a5db6, type: 3}
+  Rocket: {fileID: 0}
+  LaserImpactEffect: {fileID: 0}
   SecondaryAttack: 1
+  LaserDamage: 0
   ColdownTime: 0.5
 --- !u!95 &485195867
 Animator:

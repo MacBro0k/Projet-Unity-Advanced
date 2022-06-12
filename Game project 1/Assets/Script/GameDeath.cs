@@ -6,9 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameDeath : MonoBehaviour
 {
 
-    public void RestartGame(string SceneName){
+    public void RestartGame(){
         Debug.Log("restart");
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void MainMenu() {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Quitgame(){

@@ -9,8 +9,8 @@ public class Explosion : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D Col)
     {
-        /*if(Col.tag == "Enemy"){
-
-        }*/
+        if(Col.tag == "Enemy"){
+            Col.GetComponent<EnemyControler>().TakeDamage(ExplosionDamage);
+        }
     }
 }
