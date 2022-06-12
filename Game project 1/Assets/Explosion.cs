@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public int Explosion Damage;
+    public int ExplosionDamage;
 
 
     void OnTriggerEnter2D(Collider2D Col)
     {
-        if(Col.tag == "Enemy"){
-            
-        }
+        /*if(Col.tag == "Enemy"){
+
+        }*/
     }
 }
