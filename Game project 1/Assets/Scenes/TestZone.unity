@@ -290,6 +290,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 943487100179984018, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
   m_PrefabInstance: {fileID: 1837614631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &513229197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 651034259120144948, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268347423091875352, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: m_Name
+      value: MissileMunition
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820863299312172214, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
+      propertyPath: PickupSound
+      value: 
+      objectReference: {fileID: 793240436337064382, guid: 2f4a81dbda752e040bee425fa1b25d5b, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b74d8b3f32e8c324e983abe560685abd, type: 3}
 --- !u!120 &605186468 stripped
 LineRenderer:
   m_CorrespondingSourceObject: {fileID: 8629298611185504787, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
@@ -356,6 +417,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb9cfe9891bc85489bb8460e8138acb, type: 3}
+--- !u!114 &984176210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3488654648940668367, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
+  m_PrefabInstance: {fileID: 308619549}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1634724197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,6 +504,10 @@ PrefabInstance:
       propertyPath: laserbar
       value: 
       objectReference: {fileID: 2124664739}
+    - target: {fileID: 1140475837, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: AmmoAmountUI
+      value: 
+      objectReference: {fileID: 984176210}
     - target: {fileID: 1761248183, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: Beam
       value: 
