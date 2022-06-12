@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  damage: 35
+  damage: 0
   rb: {fileID: 4217726509874923739}
   Residue: {fileID: 8854462693341908525, guid: 7c7c5ed43a5a533469ad5a76eba970f1, type: 3}
 --- !u!50 &4217726509874923739
