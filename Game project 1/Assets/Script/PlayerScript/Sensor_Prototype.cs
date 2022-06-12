@@ -34,6 +34,7 @@ public class Sensor_Prototype : MonoBehaviour {
         m_DisableTimer -= Time.deltaTime;
     }
 
+    // Temporally disable the sensor
     public void Disable(float duration)
     {
         m_DisableTimer = duration;

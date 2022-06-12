@@ -12,11 +12,10 @@ Vector3 offset; // Propriété qui va contenir la différence à maintenir entre
 // Use this for initialization 
 void Start () { 
 offset = transform.position - target.position; // Calcul de l'offset à garder entre le personnage et la caméra 
-// transform est par défaut disponible dans les classes lié à un game objet 
-// ce qui nous permet de le réupérer sans avoir besoin d'utiliser GetComponent 
-// transform équivaut à la rubrique transforme au sein de l'inspecteur quand on clique sur un objet 
-// L'offset correspondra toujours à la position du personnage et caméra dans la scène 
- 
+                                               // transform est par défaut disponible dans les classes lié à un game objet 
+                                               // ce qui nous permet de le réupérer sans avoir besoin d'utiliser GetComponent 
+                                               // transform équivaut à la rubrique transforme au sein de l'inspecteur quand on clique sur un objet 
+                                               // L'offset correspondra toujours à la position du personnage et caméra dans la scène 
 } 
  
 void FixedUpdate () { // Fixed Update au lieu de Update pour avoir une interval régulier, au lieu de chaque frame 
