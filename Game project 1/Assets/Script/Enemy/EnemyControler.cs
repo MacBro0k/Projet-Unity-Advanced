@@ -37,6 +37,16 @@ public class EnemyControler : MonoBehaviour
         Life = MaxLife;
     }
 
+    public void flip(){
+        if(movingRight == true){
+            transform.Rotate(0f,180f,0f);
+            movingRight = false;
+        }else{
+            transform.Rotate(0f,180f,0f);
+            movingRight = true;
+        }
+    }
+
     void Update(){
         m_animator.SetBool("Moving", moving);
         IsVisible = Sensor.GetComponent<PlayerSensor>().canSeePlayer;
@@ -108,7 +118,6 @@ public class EnemyControler : MonoBehaviour
                 IsDead = true;
             }
             m_animator.SetTrigger("Hit");
-
         }
     }
 
@@ -117,6 +126,20 @@ public class EnemyControler : MonoBehaviour
     }
 
     void OnTriggerEnter (Collider col){
+        Debug.Log(col);
+        if(col.tag == "Wall"){
+            if(movingRight == true){
+                transform.Rotate(0f,180f,0f);
+                movingRight = false;
+            }else{
+                transform.Rotate(0f,180f,0f);
+                movingRight = true;
+            }
+        }
+    }
+    
+    void OnTriggerStay (Collider col){
+        Debug.Log(col);
         if(col.tag == "Wall"){
             if(movingRight == true){
                 transform.Rotate(0f,180f,0f);
