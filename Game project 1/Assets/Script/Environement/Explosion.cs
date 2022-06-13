@@ -12,5 +12,8 @@ public class Explosion : MonoBehaviour
         if(Col.tag == "Enemy"){
             Col.GetComponent<EnemyControler>().TakeDamage(ExplosionDamage);
         }
+        if(Col.tag == "BreakableWall"){
+            Col.GetComponent<ObstacleControler>().Break();
+        }
     }
 }
