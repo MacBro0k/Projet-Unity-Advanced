@@ -23,7 +23,7 @@ public class BulletScript : MonoBehaviour
             Instantiate(Residue, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
         }
-        else if (hit.tag == "Wall") {
+        else if (hit.tag == "Wall" || hit.tag == "BreakableWall") {
             Instantiate(Residue, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
         }
