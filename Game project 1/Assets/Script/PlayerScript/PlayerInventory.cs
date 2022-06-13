@@ -28,6 +28,7 @@ public class PlayerInventory : MonoBehaviour
     // Interface Image
     public Image lifebar;
     public Image laserbar;
+    public Image armorbar;
     public TextMeshProUGUI AmmoAmountUI;
 
     void Start()
@@ -66,7 +67,7 @@ public class PlayerInventory : MonoBehaviour
 
     // Soigne le joueur
     public void Heal(int Amount){
-        for(int i = 0; i <= Amount; i++){
+        for(int i = 0; i < Amount; i++){
             if(Life == MaxLife)
                 break;
             Life++;
@@ -76,11 +77,12 @@ public class PlayerInventory : MonoBehaviour
 
     // Ajoute de l'armure aux joueur
     public void AddArmor(int Amount){
-        for(int i = 0; i <= Amount; i++){
+        for(int i = 0; i < Amount; i++){
             if(Armor == MaxArmor)
                 break;
             Armor++;
         }
+        armorbar.fillAmount = Mathf.Round(((1/(float)MaxArmor)*(float)Armor)*10000)/10000;
     }
 
     //////////////////////////////////////////////////////////////////////////

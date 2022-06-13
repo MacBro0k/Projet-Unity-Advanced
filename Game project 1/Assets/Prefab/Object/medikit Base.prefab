@@ -61,6 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ea8af99f1184c4784edec7a9a62d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HealSound: {fileID: 793240436337064382, guid: 2f4a81dbda752e040bee425fa1b25d5b, type: 3}
   Amount: 15
 --- !u!1 &6064586460401091167
 GameObject:
