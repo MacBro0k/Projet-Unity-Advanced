@@ -381,6 +381,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 851b34b7a579a724da765fa54d2eae1d, type: 3}
+--- !u!225 &1516247041 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 7808945218044490050, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
+  m_PrefabInstance: {fileID: 308619549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1634724197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,6 +511,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1140475835, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: endCG
+      value: 
+      objectReference: {fileID: 1516247041}
+    - target: {fileID: 1140475835, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: endGameUIText
+      value: 
+      objectReference: {fileID: 2100431068}
     - target: {fileID: 1140475837, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: lifebar
       value: 
@@ -629,6 +642,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
+--- !u!114 &2100431068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8308700730364468715, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
+  m_PrefabInstance: {fileID: 308619549}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2124664739 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2071860078, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
