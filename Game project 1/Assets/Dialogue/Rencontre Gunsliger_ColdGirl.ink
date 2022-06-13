@@ -2,14 +2,14 @@
 
 == main ==
 J'adore le pain
-Comment est ta Bite ?
-    + [Enorme]
-        -> chosen("AH oui elle est vraiment grosse")
-    + [Normal]
-        -> chosen("Ptit ego grosse bite")
-    + [Très Petite]
-        -> chosen("Ah c'est triste mais au moins t'es honnête")
+quelle cuisson ?
+    + [bien cuit]
+        -> chosen("genre tu gry du charbon mon reuf")
+    + [normal]
+        -> chosen("logique")
+    + [j'aime la pate pas cuite]
+        -> chosen("chelou mon reuf")
         
-== chosen(Bite) ==
-{Bite}
+== chosen(Pain) ==
+{Pain}
 ->END

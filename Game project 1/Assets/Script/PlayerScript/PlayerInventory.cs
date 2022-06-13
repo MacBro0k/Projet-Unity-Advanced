@@ -35,6 +35,7 @@ public class PlayerInventory : MonoBehaviour
     {
         m_animator = GetComponent<Animator>();
         Life = MaxLife;
+        Armor = 0;
         Laser = 0;
         laserbar.fillAmount = 0;
     }

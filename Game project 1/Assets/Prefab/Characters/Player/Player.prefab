@@ -203,11 +203,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxLife: 50
-  MaxArmor: 0
+  MaxArmor: 10
   MaxRocket: 5
   MaxGrenade: 5
   lifebar: {fileID: 0}
   laserbar: {fileID: 0}
+  armorbar: {fileID: 0}
   AmmoAmountUI: {fileID: 0}
 --- !u!114 &8632061669327895637
 MonoBehaviour:

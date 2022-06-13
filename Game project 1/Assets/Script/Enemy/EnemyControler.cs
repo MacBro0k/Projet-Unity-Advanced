@@ -8,7 +8,7 @@ public class EnemyControler : MonoBehaviour
     public GameObject Sensor;
     public Transform groundDetection;
     GameObject Player;
-    public GameObject ShootSound;
+    //public GameObject ShootSound;
 
 
     public float PatrolSpeed;
@@ -98,7 +98,7 @@ public class EnemyControler : MonoBehaviour
                             nextFire = Time.time + FireRate;
                             m_animator.SetTrigger("Shoot");
                             Instantiate(bullet,transform.position,Quaternion.identity);
-                            Instantiate(ShootSound);
+                            //Instantiate(ShootSound);
                         }
                     }
                 }

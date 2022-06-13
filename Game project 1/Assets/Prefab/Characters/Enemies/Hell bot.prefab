@@ -196,7 +196,7 @@ MonoBehaviour:
   MaxDist: 6
   CacDist: 1
   FireRate: 2.5
-  MaxLife: 15
+  MaxLife: 55
   IsPatroling: 1
   Guard: 0
   Stand: 0
@@ -213,7 +213,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.40923914, y: -0.0002092421}
+  m_Offset: {x: 0.50289017, y: -0.0002092421}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -224,7 +224,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.501584, y: 0.7154444}
+  m_Size: {x: 0.59171104, y: 0.7154444}
   m_EdgeRadius: 0
 --- !u!1 &7982820377158168447
 GameObject:
