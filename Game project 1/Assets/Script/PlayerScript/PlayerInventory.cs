@@ -114,16 +114,16 @@ public class PlayerInventory : MonoBehaviour
             Rocket++;
         }
         AmmoAmountUI.SetText(Rocket.ToString());
-        Debug.Log("A ramassé une rocket");
     }
 
     // Retire des Rockets dans l'inventaire du joueur
     public void RemoveRocket(int Amount){
-        for(int i = 0; i<= Amount; i++){
+        for(int i = 0; i< Amount; i++){
             if(Rocket == 0)
                 break;
             Rocket--;
         }
+        AmmoAmountUI.SetText(Rocket.ToString());
     }
 
     // Ajoute des Grenades dans l'inventaire du joueur

@@ -8,5 +8,5 @@ Si tu souhaite casser ce mur, il te faut des rockets
 == chosen(Pain) ==
 {Pain}
 Et puis déjà débrouille toi p'tit merdeux và,
-Moi de mon temps on les fabriqués nous-mêmes les rockets.
+Moi de mon temps on les fabriquais nous-mêmes les rockets.
 ->END
