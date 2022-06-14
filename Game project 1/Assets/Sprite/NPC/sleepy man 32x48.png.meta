@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 7d65b000007cc504aa0027acadfb8104
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7791811118920659939
+    second: sleepy man 32x48_0
+  - first:
+      213: -5410951292832628458
+    second: sleepy man 32x48_1
+  - first:
+      213: 7193807787553589626
+    second: sleepy man 32x48_2
+  - first:
+      213: 3594120896067151955
+    second: sleepy man 32x48_3
+  - first:
+      213: -6147822341833884342
+    second: sleepy man 32x48_4
+  - first:
+      213: 8130264562425794163
+    second: sleepy man 32x48_5
+  - first:
+      213: 1747006262863312425
+    second: sleepy man 32x48_6
+  - first:
+      213: 2702201084997523485
+    second: sleepy man 32x48_7
+  - first:
+      213: -4449530607742573401
+    second: sleepy man 32x48_8
+  - first:
+      213: -7191086401810230898
+    second: sleepy man 32x48_9
+  - first:
+      213: 3369895212341585229
+    second: sleepy man 32x48_10
+  - first:
+      213: 5200635747753495351
+    second: sleepy man 32x48_11
+  - first:
+      213: 3408309662413847609
+    second: sleepy man 32x48_12
+  - first:
+      213: 777587071226836202
+    second: sleepy man 32x48_13
+  - first:
+      213: -462895107661195660
+    second: sleepy man 32x48_14
+  - first:
+      213: -1055420587339100536
+    second: sleepy man 32x48_15
+  - first:
+      213: -5783677321041964373
+    second: sleepy man 32x48_16
+  - first:
+      213: 8820047786698249151
+    second: sleepy man 32x48_17
+  - first:
+      213: -3949125841342689164
+    second: sleepy man 32x48_18
+  - first:
+      213: -1774064768134722509
+    second: sleepy man 32x48_19
+  - first:
+      213: 5734203616692590661
+    second: sleepy man 32x48_20
+  - first:
+      213: 523482567567817480
+    second: sleepy man 32x48_21
+  - first:
+      213: 6247463516052407304
+    second: sleepy man 32x48_22
+  - first:
+      213: -579994016662810089
+    second: sleepy man 32x48_23
+  - first:
+      213: -6636869724246221302
+    second: sleepy man 32x48_24
+  - first:
+      213: 4277906420599183136
+    second: sleepy man 32x48_25
+  - first:
+      213: -5391384755212783409
+    second: sleepy man 32x48_26
+  - first:
+      213: -5884075333846516357
+    second: sleepy man 32x48_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sleepy man 32x48_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3743c0ee2122c60800000000000000
+      internalID: 7791811118920659939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61145c5b77078e4b0800000000000000
+      internalID: -5410951292832628458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79029f711a85d360800000000000000
+      internalID: 7193807787553589626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35824e999e1e0e130800000000000000
+      internalID: 3594120896067151955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df7c4172c8eaaa0800000000000000
+      internalID: -6147822341833884342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e06552b8084d070800000000000000
+      internalID: 8130264562425794163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b956a0fc9e3810800000000000000
+      internalID: 1747006262863312425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18d3f6e195208520800000000000000
+      internalID: 2702201084997523485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a644ac771042c0800000000000000
+      internalID: -4449530607742573401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8195fe7401243c90800000000000000
+      internalID: -7191086401810230898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45e8e557d544ce20800000000000000
+      internalID: 3369895212341585229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8b0f88ae5c2840800000000000000
+      internalID: 5200635747753495351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c75b8749fbc4f20800000000000000
+      internalID: 3408309662413847609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4796a425b8aca00800000000000000
+      internalID: 777587071226836202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47696932a577399f0800000000000000
+      internalID: -462895107661195660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ec40351946a51f0800000000000000
+      internalID: -1055420587339100536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba29fc7ae104cbfa0800000000000000
+      internalID: -5783677321041964373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb39e1c3bba176a70800000000000000
+      internalID: 8820047786698249151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470147d78f2e139c0800000000000000
+      internalID: -3949125841342689164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4bc62e714167e0800000000000000
+      internalID: -1774064768134722509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d8baeecbf39f40800000000000000
+      internalID: 5734203616692590661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_21
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3df52f98c34700800000000000000
+      internalID: 523482567567817480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8044485a7f273b650800000000000000
+      internalID: 6247463516052407304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71216f8c38273f7f0800000000000000
+      internalID: -579994016662810089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e52c1462a15e3a0800000000000000
+      internalID: -6636869724246221302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_25
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0275d26693d2e5b30800000000000000
+      internalID: 4277906420599183136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0f5124124fd25b0800000000000000
+      internalID: -5391384755212783409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleepy man 32x48_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7db076b8a0975ea0800000000000000
+      internalID: -5884075333846516357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
