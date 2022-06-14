@@ -37,16 +37,18 @@ public class PrototypeHeroControler : MonoBehaviour {
 
     private int                 m_facingDirection = 1;
     private float               m_disableMovementTimer = 0.0f;
+    private int                 m_wallJump;
 
-    public float ledgeClimbXoffset1 = 0f;
-    public float ledgeClimbYoffset1 = 0f;
-    public float ledgeClimbXoffset2 = 0f;
-    public float ledgeClimbYoffset2 = 0f;
+    public float                ledgeClimbXoffset1 = 0f;
+    public float                ledgeClimbYoffset1 = 0f;
+    public float                ledgeClimbXoffset2 = 0f;
+    public float                ledgeClimbYoffset2 = 0f;
 
     public LayerMask            LayerGround;
     public float                wallCheckDistance;
     public float                wallSlidingSpeed;
     public float                wallJumpForce;
+    public int                  wallJumpMax;
 
 
     // Use this for initialization
@@ -189,7 +191,8 @@ public class PrototypeHeroControler : MonoBehaviour {
         }
 
         //Wall Jump
-        if (Input.GetButtonDown("Jump") && (m_OnWallSlide)){
+        if (Input.GetButtonDown("Jump") && (m_OnWallSlide) && (m_wallJump < wallJumpMax)){
+            m_wallJump += 1; 
             m_OnWallSlide = false;
             //Vector2 forceToAdd 
             m_body2d.AddForce( new Vector2(wallJumpForce, wallJumpForce), ForceMode2D.Impulse);
@@ -228,6 +231,7 @@ public class PrototypeHeroControler : MonoBehaviour {
             if (!m_grounded && m_groundSensor.State())
             {
                 m_grounded = true;
+                m_wallJump = 0;
                 m_animator.SetBool("Grounded", m_grounded);
             }
 

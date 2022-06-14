@@ -241,6 +241,7 @@ MonoBehaviour:
   wallCheckDistance: 0.63
   wallSlidingSpeed: 1.5
   wallJumpForce: 10
+  wallJumpMax: 2
 --- !u!70 &327949736
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
