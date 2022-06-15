@@ -93,14 +93,20 @@ public class PlayerInventory : MonoBehaviour
 
     // Décgharge le laser
     public void UnchargeLaser(float Amount){
-        Laser -= Amount;
+        for(float i = 0; i <= Amount; i += (float)0.1){
+            if(Laser <= 0){
+                Laser = 0;
+                break;
+            }
+            Laser -= (float)0.01;
+        }
         laserbar.fillAmount = Mathf.Round(((float)0.01*Laser)*10000)/10000;
     }
 
     // Charge le laser 
     public void ChargeLaser(float Amount){
         for(float i = 0; i <= Amount; i += (float)0.1){
-            if(Laser != 100)
+            if(Laser == 100)
                 break;
             Laser += (float)0.1;
         }

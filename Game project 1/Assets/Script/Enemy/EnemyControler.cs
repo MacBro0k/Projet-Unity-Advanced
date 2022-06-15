@@ -69,13 +69,7 @@ public class EnemyControler : MonoBehaviour
                 transform.Translate(Vector2.right * PatrolSpeed * Time.deltaTime);      
                 RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, RayDistance);
                 if(groundInfo.collider == false){
-                    if(movingRight == true){
-                        transform.Rotate(0f,180f,0f);
-                        movingRight = false;
-                    }else{
-                        transform.Rotate(0f,180f,0f);
-                        movingRight = true;
-                    }
+                    Rotate();
                 }
             }else{
                 if(Vector2.Distance(transform.position, Player.transform.position) >= MaxDist){
@@ -107,7 +101,10 @@ public class EnemyControler : MonoBehaviour
 
     }
 
-
+    public void Rotate(){
+        transform.Rotate(0f,180f,0f);
+        movingRight = !movingRight;
+    }
 
 
     public void TakeDamage(int Damage){
@@ -125,29 +122,4 @@ public class EnemyControler : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void OnTriggerEnter (Collider col){
-        Debug.Log(col);
-        if(col.tag == "Wall"){
-            if(movingRight == true){
-                transform.Rotate(0f,180f,0f);
-                movingRight = false;
-            }else{
-                transform.Rotate(0f,180f,0f);
-                movingRight = true;
-            }
-        }
-    }
-    
-    void OnTriggerStay (Collider col){
-        Debug.Log(col);
-        if(col.tag == "Wall"){
-            if(movingRight == true){
-                transform.Rotate(0f,180f,0f);
-                movingRight = false;
-            }else{
-                transform.Rotate(0f,180f,0f);
-                movingRight = true;
-            }
-        }
-    }
 }

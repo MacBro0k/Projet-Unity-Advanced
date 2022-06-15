@@ -67,7 +67,8 @@ public class PlayerShooter : MonoBehaviour
             }
             else if (Input.GetButton("Fire2")){
                 if(SecondaryAttack == SecondaryAttackList.Laser){
-                    //if(m_Player.GetComponent<PlayerInventory>().Laser == 0){
+                    if(m_Player.GetComponent<PlayerInventory>().Laser <= 0){
+                            m_Player.GetComponent<PlayerInventory>().UnchargeLaser((float)0.2);
                             IsBeaming = true;
                             RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right);
 
@@ -91,11 +92,11 @@ public class PlayerShooter : MonoBehaviour
                                 Beam.SetPosition(1,firepoint.position + firepoint.right * 100);
                             }
                             Beam.enabled = true;
-                    //}
+                    }
                 }
             }
-            if(!IsBeaming)
-                Beam.enabled = false;
+            //if(!IsBeaming)
+                //Beam.enabled = false;
         }
 
     }

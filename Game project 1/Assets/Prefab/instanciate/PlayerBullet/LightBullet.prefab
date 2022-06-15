@@ -121,6 +121,7 @@ MonoBehaviour:
   damage: 15
   rb: {fileID: 7116288699873834948}
   Residue: {fileID: 5175321488874364618, guid: b75594e0c8c08844da6a405184a26820, type: 3}
+  Player: {fileID: 943487100179984016, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
 --- !u!50 &7116288699873834948
 Rigidbody2D:
   serializedVersion: 4

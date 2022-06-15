@@ -6,7 +6,7 @@ public class KillTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other) {
         if (other != null) {
-            Debug.Log("Quelque chose est entré dans le trigger");
+            Debug.Log("Someone Fall in the void");
             if (other.gameObject.CompareTag("Player")) {
                 other.GetComponent<PlayerHearth>().MakeDead();
             }
