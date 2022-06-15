@@ -58,6 +58,7 @@ public class PlayerInventory : MonoBehaviour
             }
             Life -= Damage;
             lifebar.fillAmount = Mathf.Round((1/(float)MaxLife)*(float)Life*10000)/10000;
+            armorbar.fillAmount = Mathf.Round((1/(float)MaxArmor)*(float)Armor*10000)/10000;
             if(Life <= 0){
                 m_animator.SetTrigger("Death");
             }else{
