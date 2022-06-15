@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class MainMenu : MonoBehaviour
 {
     public Slider SliderUI;
     private GameObject OptionMenu;
+    public AudioMixer MasterVolume;
 
     // private void HandleGameStateChanged(GameManager.GameState previousGameState, GameManager.GameState CurrentGameState) {
     //     if (previousGameState == GameManager.GameState.PREGAME && CurrentGameState == GameManager.GameState.RUNNING)
@@ -29,6 +31,7 @@ public class MainMenu : MonoBehaviour
     {
         PlayerPrefs.SetFloat("volume", SliderUI.value);
         Debug.Log(PlayerPrefs.GetFloat("volume"));
+        MasterVolume.SetFloat("MasterVolume", Mathf.Log10(SliderUI.value) * 20);
     }
 
     public void ToggleFullScreen()

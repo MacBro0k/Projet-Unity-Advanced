@@ -9,4 +9,5 @@ Si tu souhaite casser ce mur, il te faut des rockets
 {Pain}
 Et puis déjà débrouille toi p'tit merdeux và,
 Moi de mon temps on les fabriquais nous-mêmes les rockets.
+Bon, une fois que tu les as, t'appuies sur clique droit pour les lancer.
 ->END
