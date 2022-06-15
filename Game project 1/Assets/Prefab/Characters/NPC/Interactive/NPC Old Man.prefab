@@ -55,9 +55,25 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5319511175342068238, guid: ed4bd430830bc7742adcb2d701c02dad, type: 3}
+    - target: {fileID: 1383638734738218969, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299715055254195741, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2311446994971873496, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC Old Man
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311446994971873496, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2985824480112481482, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7440855391314924184, guid: 10cf2d7737f145a42986965c472e2b5a, type: 3}
       propertyPath: m_Controller

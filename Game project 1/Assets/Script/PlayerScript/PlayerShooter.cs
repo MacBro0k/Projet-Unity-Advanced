@@ -21,6 +21,7 @@ public class PlayerShooter : MonoBehaviour
     
     public int LaserDamage;
     public float ColdownTime = 1f;
+    public LayerMask LaserCanHit;
 
     private float endColdownTime;
     private bool m_canShoot = true;
@@ -67,10 +68,10 @@ public class PlayerShooter : MonoBehaviour
             }
             else if (Input.GetButton("Fire2")){
                 if(SecondaryAttack == SecondaryAttackList.Laser){
-                    if(m_Player.GetComponent<PlayerInventory>().Laser <= 0){
+                    if(m_Player.GetComponent<PlayerInventory>().Laser > 0){
                             m_Player.GetComponent<PlayerInventory>().UnchargeLaser((float)0.2);
                             IsBeaming = true;
-                            RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right);
+                            RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right, LaserCanHit);
 
                             if(HitInfo){
                                 EnemyControler enemy = HitInfo.transform.GetComponent<EnemyControler>();
@@ -95,8 +96,8 @@ public class PlayerShooter : MonoBehaviour
                     }
                 }
             }
-            //if(!IsBeaming)
-                //Beam.enabled = false;
+            if(!IsBeaming)
+                Beam.enabled = false;
         }
 
     }

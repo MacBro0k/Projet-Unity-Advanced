@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6297911626366106501}
   - component: {fileID: 3028556897559310077}
   - component: {fileID: 3457179822790102610}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7508936862309653212}
   - component: {fileID: 17107128872606571}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual Interact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 183656289627331539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 6802381409129800133}
   - component: {fileID: 748712913914745007}
   - component: {fileID: 7440855391314924184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17,8 +17,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl_1-3.unity
     guid: f9d61639ba14dc748bbb9769a0abe329
-  - enabled: 1
-    path: Assets/Scenes/TestZone.unity
-    guid: ecf9c75877e0b0049a17f95bddf28fbb
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c33a3846be13c67498299514f8d03241, type: 2}

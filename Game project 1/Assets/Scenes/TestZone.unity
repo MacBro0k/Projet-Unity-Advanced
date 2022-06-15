@@ -313,6 +313,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4334638965466457842, guid: 6488e3420f1cc074c90c2ed63014ae36, type: 3}
   m_PrefabInstance: {fileID: 4334638965747727525}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &871523373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5479747923040377552, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
+  m_PrefabInstance: {fileID: 308619549}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &984176210 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3488654648940668367, guid: 80e418cc8c6031f489f34eb263d6dec2, type: 3}
@@ -511,6 +522,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 516224990, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
+      propertyPath: LaserCanHit.m_Bits
+      value: 2880
+      objectReference: {fileID: 0}
     - target: {fileID: 1140475835, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: endCG
       value: 
@@ -530,7 +545,7 @@ PrefabInstance:
     - target: {fileID: 1140475837, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: laserbar
       value: 
-      objectReference: {fileID: 2124664739}
+      objectReference: {fileID: 871523373}
     - target: {fileID: 1140475837, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
       propertyPath: AmmoAmountUI
       value: 
@@ -583,10 +598,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8629298611185504787, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b58354c186d9bde42ad2a4ab0545dde9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b49c81e66294144835f1efa03c8fbc, type: 3}
 --- !u!1001 &1853657775
@@ -606,11 +617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5367998970787587532, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 5367998970787587532, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.28
+      value: -4.41
       objectReference: {fileID: 0}
     - target: {fileID: 5367998970787587532, guid: 4ab956b9f8c0fe64291771e4a6dd1624, type: 3}
       propertyPath: m_LocalPosition.z

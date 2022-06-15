@@ -517,6 +517,9 @@ MonoBehaviour:
   SecondaryAttack: 0
   LaserDamage: 0
   ColdownTime: 0.2
+  LaserCanHit:
+    serializedVersion: 2
+    m_Bits: 1856
 --- !u!1 &5345932756995291832
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +630,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -812,6 +815,9 @@ MonoBehaviour:
   SecondaryAttack: 1
   LaserDamage: 1
   ColdownTime: 0.5
+  LaserCanHit:
+    serializedVersion: 2
+    m_Bits: 1856
 --- !u!95 &485195867
 Animator:
   serializedVersion: 3

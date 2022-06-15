@@ -27,6 +27,7 @@ public class PrototypeHeroControler : MonoBehaviour {
     private bool                m_canMove = true;
     public bool                 m_canShoot {get; private set; }
     private bool                m_Talk = false;
+    private bool                m_cutScene = false;
     private bool                m_isTouchingWallR;
     private bool                m_isTouchingWallL;
     private bool                m_isTouchingLedge;
@@ -212,14 +213,16 @@ public class PrototypeHeroControler : MonoBehaviour {
             m_canShoot = true;
         }
 
+        //Disable mouvement when Cutscene playing
         if (Cutscene.GetInstance().CutscenePlaying)
         {
             m_canMove = false;
             m_canShoot = false;
-            m_Talk = true;
+            m_cutScene = true;
         }
-        else if (!m_canMove && m_Talk)
+        else if (!m_canMove && m_cutScene)
         {
+            m_cutScene = false;
             m_canMove = true;
             m_canShoot = true;
         }
@@ -241,11 +244,11 @@ public class PrototypeHeroControler : MonoBehaviour {
                 m_grounded = false;
                 m_animator.SetBool("Grounded", m_grounded);
             }
-        if(m_canMove){
+
             // -- Handle input and movement --
             float inputX = 0.0f;
 
-
+        if(m_canMove){
             if (m_disableMovementTimer < 0.0f)
                 inputX = Input.GetAxis("Horizontal");
 
@@ -288,8 +291,8 @@ public class PrototypeHeroControler : MonoBehaviour {
             if (Input.GetButtonDown("Roll") && m_grounded){
                 m_animator.SetBool("IsRolling",true);
             }
-            m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));         
         }
+        m_animator.SetFloat("MoveSpeed", Mathf.Abs(inputX));     
     }
     #if UNITY_EDITOR
     private void OnDrawGizmos()

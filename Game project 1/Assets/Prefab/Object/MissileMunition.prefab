@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2171353440711193953}
   - component: {fileID: 3820863299312172214}
   - component: {fileID: 1105059778804023882}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MissileMunition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 5
-  PickupSound: {fileID: 793240436337064382, guid: 2f4a81dbda752e040bee425fa1b25d5b, type: 3}
 --- !u!95 &1105059778804023882
 Animator:
   serializedVersion: 3
