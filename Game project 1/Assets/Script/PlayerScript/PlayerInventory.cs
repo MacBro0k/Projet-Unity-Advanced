@@ -106,7 +106,7 @@ public class PlayerInventory : MonoBehaviour
     // Charge le laser 
     public void ChargeLaser(float Amount){
         for(float i = 0; i <= Amount; i += (float)0.1){
-            if(Laser == 100)
+            if(Laser >= 100)
                 break;
             Laser += (float)0.1;
         }

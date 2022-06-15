@@ -69,7 +69,7 @@ public class PlayerShooter : MonoBehaviour
             else if (Input.GetButton("Fire2")){
                 if(SecondaryAttack == SecondaryAttackList.Laser){
                     if(m_Player.GetComponent<PlayerInventory>().Laser > 0){
-                            m_Player.GetComponent<PlayerInventory>().UnchargeLaser((float)0.2);
+                            m_Player.GetComponent<PlayerInventory>().UnchargeLaser(0.2f);
                             IsBeaming = true;
                             RaycastHit2D HitInfo = Physics2D.Raycast(firepoint.position, firepoint.right, LaserCanHit);
 
@@ -111,5 +111,6 @@ public class PlayerShooter : MonoBehaviour
             m_animator.SetBool("IsCharging", false);
         }
     }
+    
 
 }
